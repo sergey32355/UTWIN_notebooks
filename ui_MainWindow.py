@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'MainWindowthxPPr.ui'
+## Form generated from reading UI file 'MainWindowhlalMU.ui'
 ##
 ## Created by: Qt User Interface Compiler version 6.7.2
 ##
@@ -104,18 +104,6 @@ class Ui_ui_MainWindow(object):
         self.tab_4 = QWidget()
         self.tab_4.setObjectName(u"tab_4")
         self.tabWidget_2.addTab(self.tab_4, "")
-        self.tab_5 = QWidget()
-        self.tab_5.setObjectName(u"tab_5")
-        self.Pywr_simulate_pushButton = QPushButton(self.tab_5)
-        self.Pywr_simulate_pushButton.setObjectName(u"Pywr_simulate_pushButton")
-        self.Pywr_simulate_pushButton.setGeometry(QRect(10, 503, 161, 41))
-        self.tabWidget_2.addTab(self.tab_5, "")
-        self.tab_6 = QWidget()
-        self.tab_6.setObjectName(u"tab_6")
-        self.EPANET_simulate_pushButton_2 = QPushButton(self.tab_6)
-        self.EPANET_simulate_pushButton_2.setObjectName(u"EPANET_simulate_pushButton_2")
-        self.EPANET_simulate_pushButton_2.setGeometry(QRect(20, 500, 161, 41))
-        self.tabWidget_2.addTab(self.tab_6, "")
         self.tab_7 = QWidget()
         self.tab_7.setObjectName(u"tab_7")
         self.WNTR_show_elevations_pushButton_4 = QPushButton(self.tab_7)
@@ -221,7 +209,7 @@ class Ui_ui_MainWindow(object):
         self.retranslateUi(ui_MainWindow)
 
         self.tabWidget.setCurrentIndex(0)
-        self.tabWidget_2.setCurrentIndex(4)
+        self.tabWidget_2.setCurrentIndex(2)
 
 
         QMetaObject.connectSlotsByName(ui_MainWindow)
@@ -244,10 +232,6 @@ class Ui_ui_MainWindow(object):
 
         self.tabWidget_2.setTabText(self.tabWidget_2.indexOf(self.tab_3), QCoreApplication.translate("ui_MainWindow", u"Graph overview", None))
         self.tabWidget_2.setTabText(self.tabWidget_2.indexOf(self.tab_4), QCoreApplication.translate("ui_MainWindow", u"SimulationS", None))
-        self.Pywr_simulate_pushButton.setText(QCoreApplication.translate("ui_MainWindow", u"Simulate", None))
-        self.tabWidget_2.setTabText(self.tabWidget_2.indexOf(self.tab_5), QCoreApplication.translate("ui_MainWindow", u"Pywr", None))
-        self.EPANET_simulate_pushButton_2.setText(QCoreApplication.translate("ui_MainWindow", u"Simulate", None))
-        self.tabWidget_2.setTabText(self.tabWidget_2.indexOf(self.tab_6), QCoreApplication.translate("ui_MainWindow", u"EpaNET", None))
         self.WNTR_show_elevations_pushButton_4.setText(QCoreApplication.translate("ui_MainWindow", u"Show elevantions", None))
         self.WNTR_show_popiulation_pushButton_5.setText(QCoreApplication.translate("ui_MainWindow", u"Show population", None))
         self.WNTR_list_WNTR_NODES_AND_PIPES_pushButton_6.setText(QCoreApplication.translate("ui_MainWindow", u"Reserved", None))
