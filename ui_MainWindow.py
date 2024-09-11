@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'MainWindowRosdjv.ui'
+## Form generated from reading UI file 'MainWindowthxPPr.ui'
 ##
 ## Created by: Qt User Interface Compiler version 6.7.2
 ##
@@ -15,10 +15,11 @@ from PySide6.QtGui import (QBrush, QColor, QConicalGradient, QCursor,
     QFont, QFontDatabase, QGradient, QIcon,
     QImage, QKeySequence, QLinearGradient, QPainter,
     QPalette, QPixmap, QRadialGradient, QTransform)
-from PySide6.QtWidgets import (QApplication, QComboBox, QGroupBox, QHBoxLayout,
-    QLabel, QLineEdit, QListWidget, QListWidgetItem,
-    QMainWindow, QMenuBar, QPushButton, QSizePolicy,
-    QStatusBar, QTabWidget, QVBoxLayout, QWidget)
+from PySide6.QtWidgets import (QApplication, QCheckBox, QComboBox, QGroupBox,
+    QHBoxLayout, QLabel, QLineEdit, QListWidget,
+    QListWidgetItem, QMainWindow, QMenuBar, QPushButton,
+    QSizePolicy, QStatusBar, QTabWidget, QVBoxLayout,
+    QWidget)
 
 class Ui_ui_MainWindow(object):
     def setupUi(self, ui_MainWindow):
@@ -117,18 +118,15 @@ class Ui_ui_MainWindow(object):
         self.tabWidget_2.addTab(self.tab_6, "")
         self.tab_7 = QWidget()
         self.tab_7.setObjectName(u"tab_7")
-        self.WNTR_simulate_pushButton_3 = QPushButton(self.tab_7)
-        self.WNTR_simulate_pushButton_3.setObjectName(u"WNTR_simulate_pushButton_3")
-        self.WNTR_simulate_pushButton_3.setGeometry(QRect(10, 500, 91, 41))
         self.WNTR_show_elevations_pushButton_4 = QPushButton(self.tab_7)
         self.WNTR_show_elevations_pushButton_4.setObjectName(u"WNTR_show_elevations_pushButton_4")
-        self.WNTR_show_elevations_pushButton_4.setGeometry(QRect(100, 500, 101, 41))
+        self.WNTR_show_elevations_pushButton_4.setGeometry(QRect(0, 500, 101, 41))
         self.WNTR_show_popiulation_pushButton_5 = QPushButton(self.tab_7)
         self.WNTR_show_popiulation_pushButton_5.setObjectName(u"WNTR_show_popiulation_pushButton_5")
-        self.WNTR_show_popiulation_pushButton_5.setGeometry(QRect(200, 500, 101, 41))
+        self.WNTR_show_popiulation_pushButton_5.setGeometry(QRect(100, 500, 101, 41))
         self.WNTR_list_WNTR_NODES_AND_PIPES_pushButton_6 = QPushButton(self.tab_7)
         self.WNTR_list_WNTR_NODES_AND_PIPES_pushButton_6.setObjectName(u"WNTR_list_WNTR_NODES_AND_PIPES_pushButton_6")
-        self.WNTR_list_WNTR_NODES_AND_PIPES_pushButton_6.setGeometry(QRect(300, 500, 101, 41))
+        self.WNTR_list_WNTR_NODES_AND_PIPES_pushButton_6.setGeometry(QRect(200, 500, 101, 41))
         self.groupBox_3 = QGroupBox(self.tab_7)
         self.groupBox_3.setObjectName(u"groupBox_3")
         self.groupBox_3.setGeometry(QRect(0, 0, 621, 71))
@@ -147,6 +145,38 @@ class Ui_ui_MainWindow(object):
         self.WNTR_links_list_combo = QComboBox(self.groupBox_3)
         self.WNTR_links_list_combo.setObjectName(u"WNTR_links_list_combo")
         self.WNTR_links_list_combo.setGeometry(QRect(360, 40, 241, 22))
+        self.groupBox_4 = QGroupBox(self.tab_7)
+        self.groupBox_4.setObjectName(u"groupBox_4")
+        self.groupBox_4.setGeometry(QRect(0, 70, 621, 71))
+        self.WNTRShowMapForTimeStamp_click = QPushButton(self.groupBox_4)
+        self.WNTRShowMapForTimeStamp_click.setObjectName(u"WNTRShowMapForTimeStamp_click")
+        self.WNTRShowMapForTimeStamp_click.setGeometry(QRect(0, 20, 101, 41))
+        self.label_6 = QLabel(self.groupBox_4)
+        self.label_6.setObjectName(u"label_6")
+        self.label_6.setGeometry(QRect(110, 30, 71, 16))
+        self.WNTR_SimSteps_text_box_2 = QLineEdit(self.groupBox_4)
+        self.WNTR_SimSteps_text_box_2.setObjectName(u"WNTR_SimSteps_text_box_2")
+        self.WNTR_SimSteps_text_box_2.setGeometry(QRect(180, 28, 51, 22))
+        self.groupBox_5 = QGroupBox(self.tab_7)
+        self.groupBox_5.setObjectName(u"groupBox_5")
+        self.groupBox_5.setGeometry(QRect(0, 430, 621, 71))
+        self.WNTR_simulate_pushButton_3 = QPushButton(self.groupBox_5)
+        self.WNTR_simulate_pushButton_3.setObjectName(u"WNTR_simulate_pushButton_3")
+        self.WNTR_simulate_pushButton_3.setGeometry(QRect(0, 20, 91, 41))
+        self.groupBox_6 = QGroupBox(self.tab_7)
+        self.groupBox_6.setObjectName(u"groupBox_6")
+        self.groupBox_6.setGeometry(QRect(0, 360, 621, 71))
+        self.WNTR_waterintakeflag = QCheckBox(self.groupBox_6)
+        self.WNTR_waterintakeflag.setObjectName(u"WNTR_waterintakeflag")
+        self.WNTR_waterintakeflag.setGeometry(QRect(10, 20, 121, 20))
+        self.label_7 = QLabel(self.groupBox_6)
+        self.label_7.setObjectName(u"label_7")
+        self.label_7.setGeometry(QRect(10, 45, 49, 16))
+        self.comboBox = QComboBox(self.groupBox_6)
+        self.comboBox.addItem("")
+        self.comboBox.addItem("")
+        self.comboBox.setObjectName(u"comboBox")
+        self.comboBox.setGeometry(QRect(60, 40, 151, 22))
         self.tabWidget_2.addTab(self.tab_7, "")
 
         self.verticalLayout.addWidget(self.tabWidget_2)
@@ -218,14 +248,25 @@ class Ui_ui_MainWindow(object):
         self.tabWidget_2.setTabText(self.tabWidget_2.indexOf(self.tab_5), QCoreApplication.translate("ui_MainWindow", u"Pywr", None))
         self.EPANET_simulate_pushButton_2.setText(QCoreApplication.translate("ui_MainWindow", u"Simulate", None))
         self.tabWidget_2.setTabText(self.tabWidget_2.indexOf(self.tab_6), QCoreApplication.translate("ui_MainWindow", u"EpaNET", None))
-        self.WNTR_simulate_pushButton_3.setText(QCoreApplication.translate("ui_MainWindow", u"Simulate", None))
         self.WNTR_show_elevations_pushButton_4.setText(QCoreApplication.translate("ui_MainWindow", u"Show elevantions", None))
         self.WNTR_show_popiulation_pushButton_5.setText(QCoreApplication.translate("ui_MainWindow", u"Show population", None))
-        self.WNTR_list_WNTR_NODES_AND_PIPES_pushButton_6.setText(QCoreApplication.translate("ui_MainWindow", u"Show population", None))
+        self.WNTR_list_WNTR_NODES_AND_PIPES_pushButton_6.setText(QCoreApplication.translate("ui_MainWindow", u"Reserved", None))
         self.groupBox_3.setTitle(QCoreApplication.translate("ui_MainWindow", u"Show results for node/link", None))
         self.WNTR_list_WNTR_SHOW_RESULTSpushButton_7.setText(QCoreApplication.translate("ui_MainWindow", u"Show", None))
         self.label_4.setText(QCoreApplication.translate("ui_MainWindow", u"Node", None))
         self.label_5.setText(QCoreApplication.translate("ui_MainWindow", u"Link", None))
+        self.groupBox_4.setTitle(QCoreApplication.translate("ui_MainWindow", u"Show map for timestamp", None))
+        self.WNTRShowMapForTimeStamp_click.setText(QCoreApplication.translate("ui_MainWindow", u"Show", None))
+        self.label_6.setText(QCoreApplication.translate("ui_MainWindow", u"Time stamp:", None))
+        self.WNTR_SimSteps_text_box_2.setText(QCoreApplication.translate("ui_MainWindow", u"5000", None))
+        self.groupBox_5.setTitle(QCoreApplication.translate("ui_MainWindow", u"Show map for timestamp", None))
+        self.WNTR_simulate_pushButton_3.setText(QCoreApplication.translate("ui_MainWindow", u"Simulate", None))
+        self.groupBox_6.setTitle(QCoreApplication.translate("ui_MainWindow", u"Water input for simulation", None))
+        self.WNTR_waterintakeflag.setText(QCoreApplication.translate("ui_MainWindow", u"Add water intake", None))
+        self.label_7.setText(QCoreApplication.translate("ui_MainWindow", u"Scenario", None))
+        self.comboBox.setItemText(0, QCoreApplication.translate("ui_MainWindow", u"Clouds", None))
+        self.comboBox.setItemText(1, QCoreApplication.translate("ui_MainWindow", u"SingleDrop", None))
+
         self.tabWidget_2.setTabText(self.tabWidget_2.indexOf(self.tab_7), QCoreApplication.translate("ui_MainWindow", u"wntr", None))
         self.groupBox_2.setTitle(QCoreApplication.translate("ui_MainWindow", u"Globals", None))
         self.SimSteps_text_box.setText(QCoreApplication.translate("ui_MainWindow", u"5000", None))
