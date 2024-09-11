@@ -106,16 +106,16 @@
          <property name="geometry">
           <rect>
            <x>320</x>
-           <y>20</y>
+           <y>100</y>
            <width>631</width>
-           <height>661</height>
+           <height>581</height>
           </rect>
          </property>
          <layout class="QVBoxLayout" name="verticalLayout">
           <item>
            <widget class="QTabWidget" name="tabWidget_2">
             <property name="currentIndex">
-             <number>0</number>
+             <number>4</number>
             </property>
             <widget class="QWidget" name="tab_3">
              <attribute name="title">
@@ -127,7 +127,7 @@
                 <x>0</x>
                 <y>0</y>
                 <width>621</width>
-                <height>291</height>
+                <height>251</height>
                </rect>
               </property>
               <layout class="QHBoxLayout" name="horizontalLayout_3"/>
@@ -136,19 +136,32 @@
               <property name="geometry">
                <rect>
                 <x>0</x>
-                <y>290</y>
+                <y>250</y>
                 <width>621</width>
-                <height>301</height>
+                <height>261</height>
                </rect>
               </property>
               <layout class="QHBoxLayout" name="horizontalLayout_4"/>
              </widget>
+             <widget class="QPushButton" name="OpenInpProjectButton_3">
+              <property name="geometry">
+               <rect>
+                <x>120</x>
+                <y>590</y>
+                <width>121</width>
+                <height>41</height>
+               </rect>
+              </property>
+              <property name="text">
+               <string>Reserved</string>
+              </property>
+             </widget>
              <widget class="QPushButton" name="OpenInpProjectButton_2">
               <property name="geometry">
                <rect>
-                <x>-2</x>
-                <y>590</y>
-                <width>121</width>
+                <x>0</x>
+                <y>510</y>
+                <width>131</width>
                 <height>41</height>
                </rect>
               </property>
@@ -156,15 +169,300 @@
                <string>Show graph in figure</string>
               </property>
              </widget>
+             <widget class="QPushButton" name="Listallnodes_btnclick">
+              <property name="geometry">
+               <rect>
+                <x>130</x>
+                <y>510</y>
+                <width>111</width>
+                <height>41</height>
+               </rect>
+              </property>
+              <property name="text">
+               <string>Show elements list</string>
+              </property>
+             </widget>
+             <widget class="QComboBox" name="ListOptionsCombo_2">
+              <property name="geometry">
+               <rect>
+                <x>240</x>
+                <y>516</y>
+                <width>151</width>
+                <height>31</height>
+               </rect>
+              </property>
+              <item>
+               <property name="text">
+                <string>Conduits</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Junctions</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Nodes</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>Storages</string>
+               </property>
+              </item>
+             </widget>
             </widget>
             <widget class="QWidget" name="tab_4">
              <attribute name="title">
-              <string>Tab 2</string>
+              <string>SimulationS</string>
              </attribute>
+            </widget>
+            <widget class="QWidget" name="tab_5">
+             <attribute name="title">
+              <string>Pywr</string>
+             </attribute>
+             <widget class="QPushButton" name="Pywr_simulate_pushButton">
+              <property name="geometry">
+               <rect>
+                <x>10</x>
+                <y>503</y>
+                <width>161</width>
+                <height>41</height>
+               </rect>
+              </property>
+              <property name="text">
+               <string>Simulate</string>
+              </property>
+             </widget>
+            </widget>
+            <widget class="QWidget" name="tab_6">
+             <attribute name="title">
+              <string>EpaNET</string>
+             </attribute>
+             <widget class="QPushButton" name="EPANET_simulate_pushButton_2">
+              <property name="geometry">
+               <rect>
+                <x>20</x>
+                <y>500</y>
+                <width>161</width>
+                <height>41</height>
+               </rect>
+              </property>
+              <property name="text">
+               <string>Simulate</string>
+              </property>
+             </widget>
+            </widget>
+            <widget class="QWidget" name="tab_7">
+             <attribute name="title">
+              <string>wntr</string>
+             </attribute>
+             <widget class="QPushButton" name="WNTR_simulate_pushButton_3">
+              <property name="geometry">
+               <rect>
+                <x>10</x>
+                <y>500</y>
+                <width>91</width>
+                <height>41</height>
+               </rect>
+              </property>
+              <property name="text">
+               <string>Simulate</string>
+              </property>
+             </widget>
+             <widget class="QPushButton" name="WNTR_show_elevations_pushButton_4">
+              <property name="geometry">
+               <rect>
+                <x>100</x>
+                <y>500</y>
+                <width>101</width>
+                <height>41</height>
+               </rect>
+              </property>
+              <property name="text">
+               <string>Show elevantions</string>
+              </property>
+             </widget>
+             <widget class="QPushButton" name="WNTR_show_popiulation_pushButton_5">
+              <property name="geometry">
+               <rect>
+                <x>200</x>
+                <y>500</y>
+                <width>101</width>
+                <height>41</height>
+               </rect>
+              </property>
+              <property name="text">
+               <string>Show population</string>
+              </property>
+             </widget>
+             <widget class="QPushButton" name="WNTR_list_WNTR_NODES_AND_PIPES_pushButton_6">
+              <property name="geometry">
+               <rect>
+                <x>300</x>
+                <y>500</y>
+                <width>101</width>
+                <height>41</height>
+               </rect>
+              </property>
+              <property name="text">
+               <string>Show population</string>
+              </property>
+             </widget>
+             <widget class="QGroupBox" name="groupBox_3">
+              <property name="geometry">
+               <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>621</width>
+                <height>71</height>
+               </rect>
+              </property>
+              <property name="title">
+               <string>Show results for node/link</string>
+              </property>
+              <widget class="QPushButton" name="WNTR_list_WNTR_SHOW_RESULTSpushButton_7">
+               <property name="geometry">
+                <rect>
+                 <x>0</x>
+                 <y>20</y>
+                 <width>101</width>
+                 <height>41</height>
+                </rect>
+               </property>
+               <property name="text">
+                <string>Show</string>
+               </property>
+              </widget>
+              <widget class="QComboBox" name="WNTR_nodes_list_combo">
+               <property name="geometry">
+                <rect>
+                 <x>110</x>
+                 <y>40</y>
+                 <width>231</width>
+                 <height>22</height>
+                </rect>
+               </property>
+              </widget>
+              <widget class="QLabel" name="label_4">
+               <property name="geometry">
+                <rect>
+                 <x>110</x>
+                 <y>20</y>
+                 <width>49</width>
+                 <height>16</height>
+                </rect>
+               </property>
+               <property name="text">
+                <string>Node</string>
+               </property>
+              </widget>
+              <widget class="QLabel" name="label_5">
+               <property name="geometry">
+                <rect>
+                 <x>360</x>
+                 <y>20</y>
+                 <width>49</width>
+                 <height>16</height>
+                </rect>
+               </property>
+               <property name="text">
+                <string>Link</string>
+               </property>
+              </widget>
+              <widget class="QComboBox" name="WNTR_links_list_combo">
+               <property name="geometry">
+                <rect>
+                 <x>360</x>
+                 <y>40</y>
+                 <width>241</width>
+                 <height>22</height>
+                </rect>
+               </property>
+              </widget>
+             </widget>
             </widget>
            </widget>
           </item>
          </layout>
+        </widget>
+        <widget class="QGroupBox" name="groupBox_2">
+         <property name="geometry">
+          <rect>
+           <x>320</x>
+           <y>10</y>
+           <width>631</width>
+           <height>91</height>
+          </rect>
+         </property>
+         <property name="title">
+          <string>Globals</string>
+         </property>
+         <widget class="QLineEdit" name="SimSteps_text_box">
+          <property name="geometry">
+           <rect>
+            <x>53</x>
+            <y>20</y>
+            <width>51</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>5000</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_2">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>23</y>
+            <width>61</width>
+            <height>16</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Sim.steps:</string>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_3">
+          <property name="geometry">
+           <rect>
+            <x>100</x>
+            <y>23</y>
+            <width>101</width>
+            <height>16</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Sim.step units:</string>
+          </property>
+         </widget>
+         <widget class="QComboBox" name="Pywr_duration_units_combo">
+          <property name="geometry">
+           <rect>
+            <x>180</x>
+            <y>20</y>
+            <width>61</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <item>
+           <property name="text">
+            <string>sec</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>min</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>hours</string>
+           </property>
+          </item>
+         </widget>
         </widget>
        </widget>
        <widget class="QWidget" name="tab_2">
