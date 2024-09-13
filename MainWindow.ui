@@ -248,19 +248,6 @@
                <string>Show population</string>
               </property>
              </widget>
-             <widget class="QPushButton" name="WNTR_list_WNTR_NODES_AND_PIPES_pushButton_6">
-              <property name="geometry">
-               <rect>
-                <x>200</x>
-                <y>500</y>
-                <width>101</width>
-                <height>41</height>
-               </rect>
-              </property>
-              <property name="text">
-               <string>Reserved</string>
-              </property>
-             </widget>
              <widget class="QGroupBox" name="groupBox_3">
               <property name="geometry">
                <rect>
@@ -362,7 +349,7 @@
                <property name="geometry">
                 <rect>
                  <x>110</x>
-                 <y>30</y>
+                 <y>20</y>
                  <width>71</width>
                  <height>16</height>
                 </rect>
@@ -375,13 +362,39 @@
                <property name="geometry">
                 <rect>
                  <x>180</x>
-                 <y>28</y>
-                 <width>51</width>
+                 <y>20</y>
+                 <width>61</width>
                  <height>22</height>
                 </rect>
                </property>
                <property name="text">
                 <string>5000</string>
+               </property>
+              </widget>
+              <widget class="QCheckBox" name="Savealldatacheckbox_2">
+               <property name="geometry">
+                <rect>
+                 <x>110</x>
+                 <y>40</y>
+                 <width>71</width>
+                 <height>20</height>
+                </rect>
+               </property>
+               <property name="text">
+                <string>Junctions</string>
+               </property>
+              </widget>
+              <widget class="QCheckBox" name="Savealldatacheckbox_3">
+               <property name="geometry">
+                <rect>
+                 <x>180</x>
+                 <y>40</y>
+                 <width>71</width>
+                 <height>20</height>
+                </rect>
+               </property>
+               <property name="text">
+                <string>Pipes</string>
                </property>
               </widget>
              </widget>
@@ -465,9 +478,198 @@
                </item>
                <item>
                 <property name="text">
-                 <string>SingleDrop</string>
+                 <string>Clouds+terrain</string>
                 </property>
                </item>
+              </widget>
+              <widget class="QLabel" name="label_8">
+               <property name="geometry">
+                <rect>
+                 <x>220</x>
+                 <y>20</y>
+                 <width>49</width>
+                 <height>16</height>
+                </rect>
+               </property>
+               <property name="text">
+                <string>Nodes</string>
+               </property>
+              </widget>
+              <widget class="QComboBox" name="comboBox_2">
+               <property name="geometry">
+                <rect>
+                 <x>220</x>
+                 <y>40</y>
+                 <width>61</width>
+                 <height>22</height>
+                </rect>
+               </property>
+               <item>
+                <property name="text">
+                 <string>All</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Specific</string>
+                </property>
+               </item>
+              </widget>
+              <widget class="QLabel" name="label_9">
+               <property name="geometry">
+                <rect>
+                 <x>300</x>
+                 <y>20</y>
+                 <width>191</width>
+                 <height>16</height>
+                </rect>
+               </property>
+               <property name="text">
+                <string>Specific nodes (use &quot;,&quot; as separator)</string>
+               </property>
+              </widget>
+              <widget class="QLineEdit" name="WNTR_SimSave_text_box_3">
+               <property name="geometry">
+                <rect>
+                 <x>300</x>
+                 <y>40</y>
+                 <width>301</width>
+                 <height>21</height>
+                </rect>
+               </property>
+               <property name="text">
+                <string>C:\Tmp</string>
+               </property>
+              </widget>
+             </widget>
+             <widget class="QGroupBox" name="groupBox_7">
+              <property name="geometry">
+               <rect>
+                <x>0</x>
+                <y>290</y>
+                <width>621</width>
+                <height>71</height>
+               </rect>
+              </property>
+              <property name="title">
+               <string>Water input for simulation</string>
+              </property>
+              <widget class="QCheckBox" name="Savealldatacheckbox">
+               <property name="geometry">
+                <rect>
+                 <x>10</x>
+                 <y>20</y>
+                 <width>121</width>
+                 <height>20</height>
+                </rect>
+               </property>
+               <property name="text">
+                <string>Save all data</string>
+               </property>
+              </widget>
+              <widget class="QLineEdit" name="WNTR_SimSave_text_box_2">
+               <property name="geometry">
+                <rect>
+                 <x>10</x>
+                 <y>41</y>
+                 <width>521</width>
+                 <height>21</height>
+                </rect>
+               </property>
+               <property name="text">
+                <string>C:\Tmp</string>
+               </property>
+              </widget>
+              <widget class="QPushButton" name="WNTR_save_path_browse_pushButton_6">
+               <property name="geometry">
+                <rect>
+                 <x>540</x>
+                 <y>30</y>
+                 <width>71</width>
+                 <height>31</height>
+                </rect>
+               </property>
+               <property name="text">
+                <string>Browse</string>
+               </property>
+              </widget>
+             </widget>
+             <widget class="QPushButton" name="WNTR_list_WNTR_NODES_AND_PIPES_pushButton_6">
+              <property name="geometry">
+               <rect>
+                <x>200</x>
+                <y>500</y>
+                <width>101</width>
+                <height>41</height>
+               </rect>
+              </property>
+              <property name="text">
+               <string>List wntr nodes</string>
+              </property>
+             </widget>
+             <widget class="QGroupBox" name="groupBox_8">
+              <property name="geometry">
+               <rect>
+                <x>0</x>
+                <y>220</y>
+                <width>621</width>
+                <height>71</height>
+               </rect>
+              </property>
+              <property name="title">
+               <string>Additional inputs</string>
+              </property>
+              <widget class="QLineEdit" name="WNTR_MaxRain_values_text_box_4">
+               <property name="geometry">
+                <rect>
+                 <x>100</x>
+                 <y>18</y>
+                 <width>81</width>
+                 <height>21</height>
+                </rect>
+               </property>
+               <property name="text">
+                <string>0.76</string>
+               </property>
+              </widget>
+              <widget class="QLabel" name="label_10">
+               <property name="geometry">
+                <rect>
+                 <x>0</x>
+                 <y>20</y>
+                 <width>101</width>
+                 <height>16</height>
+                </rect>
+               </property>
+               <property name="text">
+                <string>Max h for clouds:</string>
+               </property>
+              </widget>
+              <widget class="QLabel" name="label_11">
+               <property name="geometry">
+                <rect>
+                 <x>0</x>
+                 <y>50</y>
+                 <width>101</width>
+                 <height>16</height>
+                </rect>
+               </property>
+               <property name="text">
+                <string>Max h for terrain:</string>
+               </property>
+              </widget>
+              <widget class="QLineEdit" name="WNTR_SimSave_text_box_5">
+               <property name="geometry">
+                <rect>
+                 <x>100</x>
+                 <y>46</y>
+                 <width>81</width>
+                 <height>20</height>
+                </rect>
+               </property>
+               <property name="text">
+                <string>0.76</string>
+               </property>
               </widget>
              </widget>
             </widget>
