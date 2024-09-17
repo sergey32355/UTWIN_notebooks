@@ -32,19 +32,20 @@ def OpenInp(path):
 
     #print (len(lkm))    
 
-    Node_Names, Nodes_coord_X, Nodes_coord_Y, Cond_Names, Nodes_in, Nodes_out, Length,Roughness,Junc_Names,Junc_elevation,Junc_max_depth,Junc_init_depth,Storage_name,Storage_elevation,Storage_max_depth,Pump_name,Pump_From_Node,Pump_To_Node,Pump_Curve,Pump_Status,Pump_Sartup,Pump_Shutoff,Outfalls_name,Outfalls_elevation,Outfalls_type=extract_info(lkm)
+    Node_Names, Nodes_coord_X, Nodes_coord_Y, Cond_Names, Nodes_in, Nodes_out, Length,Roughness,Cond_cross_shape,Cond_cross_section_geom_1,Cond_cross_section_geom_2,Cond_cross_section_geom_3,Cond_cross_section_geom_4,Junc_Names,Junc_elevation,Junc_max_depth,Junc_init_depth,Storage_name,Storage_elevation,Storage_max_depth,Pump_name,Pump_From_Node,Pump_To_Node,Pump_Curve,Pump_Status,Pump_Sartup,Pump_Shutoff,Outfalls_name,Outfalls_elevation,Outfalls_type=extract_info(lkm)
     
-    return Node_Names, Nodes_coord_X, Nodes_coord_Y, Cond_Names, Nodes_in, Nodes_out, Length,Roughness,Junc_Names,Junc_elevation,Junc_max_depth,Junc_init_depth,Storage_name,Storage_elevation,Storage_max_depth,Pump_name,Pump_From_Node,Pump_To_Node,Pump_Curve,Pump_Status,Pump_Sartup,Pump_Shutoff,Outfalls_name,Outfalls_elevation,Outfalls_type
-            
+    return Node_Names, Nodes_coord_X, Nodes_coord_Y, Cond_Names, Nodes_in, Nodes_out, Length,Roughness,Cond_cross_shape,Cond_cross_section_geom_1,Cond_cross_section_geom_2,Cond_cross_section_geom_3,Cond_cross_section_geom_4,Junc_Names,Junc_elevation,Junc_max_depth,Junc_init_depth,Storage_name,Storage_elevation,Storage_max_depth,Pump_name,Pump_From_Node,Pump_To_Node,Pump_Curve,Pump_Status,Pump_Sartup,Pump_Shutoff,Outfalls_name,Outfalls_elevation,Outfalls_type
+           
 
 def extract_info(file_text,delimeter="\s"):#deimeters for inp - \s,\t
     
-    substring1="COORDINATES"
-    substring2="CONDUITS"
-    substring3="JUNCTIONS"
-    substring4="STORAGE"
-    substring5="PUMPS"
-    substring6="OUTFALLS"
+    substring1=  "COORDINATES"
+    substring2=  "CONDUITS"
+    substring2_1="XSECTIONS"
+    substring3=  "JUNCTIONS"
+    substring4=  "STORAGE"
+    substring5=  "PUMPS"
+    substring6=  "OUTFALLS"
     
     Node_Names=[]
     Nodes_coord_X=[]
@@ -53,6 +54,12 @@ def extract_info(file_text,delimeter="\s"):#deimeters for inp - \s,\t
     Cond_Names=[]
     Nodes_in=[]
     Nodes_out=[]
+    #CONDUITS CROSS SECTIONS
+    Cond_cross_shape=[]
+    Cond_cross_section_geom_1=[]
+    Cond_cross_section_geom_2=[]
+    Cond_cross_section_geom_3=[]
+    Cond_cross_section_geom_4=[]
 
     Junc_Names=[]
     Junc_elevation=[]
@@ -84,6 +91,8 @@ def extract_info(file_text,delimeter="\s"):#deimeters for inp - \s,\t
     #conduits    
     string2_substring="["
     string2_list=[]
+    #conduits geometry
+    string2_1_list=[]
 
     #junctions    
     string3_substring="["
@@ -164,7 +173,7 @@ def extract_info(file_text,delimeter="\s"):#deimeters for inp - \s,\t
     InitFlow   =[]
     MaxFlow=[]
     
-    offset=3
+    offset=2
     #conduits names and coordinates
     for g in range(offset,len(string2_list)):        
         k=string2_list[g]        
@@ -184,6 +193,98 @@ def extract_info(file_text,delimeter="\s"):#deimeters for inp - \s,\t
             MaxFlow.append   ((str_list[8]).strip())
 
     
+    #____________________________________________________________
+    #____________conduits cross sections_________________________
+    string2_1_list=[]
+    coord_flag=False
+    
+    for k in file_text:
+        
+        if(coord_flag==False):
+            try:
+                k.index(substring2_1)
+            except ValueError:
+                pass
+            else:
+                coord_flag=True
+        else:
+            try:
+                k.index(string2_substring)            
+            except ValueError:
+                string2_1_list.append(k)
+            else:
+                break
+
+    #print("-----------CONDUITS CROSS SECTIONS--------------")
+    #print(string2_1_list)
+
+    #check if the list includes the needed information
+    #print(string2_list)
+
+    Cond_cross_shape=[]
+    Cond_cross_section_geom_1=[]
+    Cond_cross_section_geom_2=[]
+    Cond_cross_section_geom_3=[]
+    Cond_cross_section_geom_4=[]
+
+    for p in range(0,len(Cond_Names)):
+        Cond_cross_shape.append([])
+        Cond_cross_section_geom_1.append([])
+        Cond_cross_section_geom_2.append([])
+        Cond_cross_section_geom_3.append([])
+        Cond_cross_section_geom_4.append([])
+
+    offset=2
+    #conduits names and coordinates
+    for g in range(offset,len(string2_1_list)):        
+        k=string2_1_list[g]        
+        str_list=re.split(delimeter,str(k))#str(k).partition(delimeter) #split(delimeter)
+        #remove empty elements frmom list
+        str_list = list(filter(None, str_list))
+        
+        if(len(str_list)>=5):
+
+            cond_name=(str_list[0]).strip()
+            try:
+                indx=Cond_Names.index(cond_name)
+            except Exception as Ex:
+                continue
+
+            Cond_cross_shape[indx].append(((str_list[1]).strip()))
+            Cond_cross_section_geom_1[indx].append  (float((str_list[2]).strip()))
+            Cond_cross_section_geom_2[indx].append (float((str_list[3]).strip()))
+            Cond_cross_section_geom_3[indx].append (float((str_list[4]).strip()))
+            Cond_cross_section_geom_4[indx].append (float((str_list[5]).strip()))
+            
+    tmpCond_cross_shape=[]
+    tmpCond_cross_section_geom_1=[]
+    tmpCond_cross_section_geom_2=[]
+    tmpCond_cross_section_geom_3=[]
+    tmpCond_cross_section_geom_4=[]
+
+    
+    for p in range(0,len(Cond_cross_shape)):
+
+        
+        #print(Cond_cross_shape[p])
+        tmpCond_cross_shape.append(Cond_cross_shape[p][0])
+        tmpCond_cross_section_geom_1.append(Cond_cross_section_geom_1[p][0])
+        tmpCond_cross_section_geom_2.append(Cond_cross_section_geom_2[p][0])
+        tmpCond_cross_section_geom_3.append(Cond_cross_section_geom_3[p][0])
+        tmpCond_cross_section_geom_4.append(Cond_cross_section_geom_4[p][0])
+
+    
+    Cond_cross_shape=tmpCond_cross_shape
+    Cond_cross_section_geom_1=tmpCond_cross_section_geom_1
+    Cond_cross_section_geom_2=tmpCond_cross_section_geom_2
+    Cond_cross_section_geom_3=tmpCond_cross_section_geom_3
+    Cond_cross_section_geom_4=tmpCond_cross_section_geom_4
+
+    
+
+    #____________________________________________________________
+    #____________________________________________________________
+
     offset=2
     #---------------
     #junctions
@@ -371,6 +472,4 @@ def extract_info(file_text,delimeter="\s"):#deimeters for inp - \s,\t
                     Outfalls_type.append(str((str_list[2]).strip()))
 
 
-
-
-    return Node_Names, Nodes_coord_X, Nodes_coord_Y, Cond_Names, Nodes_in, Nodes_out, Length,Roughness, Junc_Names,Junc_elevation,Junc_max_depth,Junc_init_depth,Storage_name,Storage_elevation,Storage_max_depth,Pump_name,Pump_From_Node,Pump_To_Node,Pump_Curve,Pump_Status,Pump_Sartup,Pump_Shutoff,Outfalls_name,Outfalls_elevation,Outfalls_type
+    return Node_Names, Nodes_coord_X, Nodes_coord_Y, Cond_Names, Nodes_in, Nodes_out, Length,Roughness, Cond_cross_shape, Cond_cross_section_geom_1, Cond_cross_section_geom_2, Cond_cross_section_geom_3, Cond_cross_section_geom_4, Junc_Names,Junc_elevation,Junc_max_depth,Junc_init_depth,Storage_name,Storage_elevation,Storage_max_depth,Pump_name,Pump_From_Node,Pump_To_Node,Pump_Curve,Pump_Status,Pump_Sartup,Pump_Shutoff,Outfalls_name,Outfalls_elevation,Outfalls_type
