@@ -261,10 +261,8 @@ def extract_info(file_text,delimeter="\s"):#deimeters for inp - \s,\t
     tmpCond_cross_section_geom_2=[]
     tmpCond_cross_section_geom_3=[]
     tmpCond_cross_section_geom_4=[]
-
     
     for p in range(0,len(Cond_cross_shape)):
-
         
         #print(Cond_cross_shape[p])
         tmpCond_cross_shape.append(Cond_cross_shape[p][0])
