@@ -115,7 +115,7 @@
           <item>
            <widget class="QTabWidget" name="tabWidget_2">
             <property name="currentIndex">
-             <number>2</number>
+             <number>3</number>
             </property>
             <widget class="QWidget" name="tab_3">
              <attribute name="title">
@@ -222,32 +222,6 @@
              <attribute name="title">
               <string>wntr</string>
              </attribute>
-             <widget class="QPushButton" name="WNTR_show_elevations_pushButton_4">
-              <property name="geometry">
-               <rect>
-                <x>0</x>
-                <y>500</y>
-                <width>101</width>
-                <height>41</height>
-               </rect>
-              </property>
-              <property name="text">
-               <string>Show elevantions</string>
-              </property>
-             </widget>
-             <widget class="QPushButton" name="WNTR_show_popiulation_pushButton_5">
-              <property name="geometry">
-               <rect>
-                <x>100</x>
-                <y>500</y>
-                <width>101</width>
-                <height>41</height>
-               </rect>
-              </property>
-              <property name="text">
-               <string>Show population</string>
-              </property>
-             </widget>
              <widget class="QGroupBox" name="groupBox_3">
               <property name="geometry">
                <rect>
@@ -402,7 +376,7 @@
               <property name="geometry">
                <rect>
                 <x>0</x>
-                <y>430</y>
+                <y>140</y>
                 <width>621</width>
                 <height>71</height>
                </rect>
@@ -423,19 +397,32 @@
                 <string>Simulate</string>
                </property>
               </widget>
-             </widget>
-             <widget class="QGroupBox" name="groupBox_6">
-              <property name="geometry">
-               <rect>
-                <x>0</x>
-                <y>360</y>
-                <width>621</width>
-                <height>71</height>
-               </rect>
-              </property>
-              <property name="title">
-               <string>Water input for simulation</string>
-              </property>
+              <widget class="QPushButton" name="WNTR_show_elevations_pushButton_4">
+               <property name="geometry">
+                <rect>
+                 <x>90</x>
+                 <y>20</y>
+                 <width>101</width>
+                 <height>41</height>
+                </rect>
+               </property>
+               <property name="text">
+                <string>Show elevantions</string>
+               </property>
+              </widget>
+              <widget class="QPushButton" name="WNTR_show_popiulation_pushButton_5">
+               <property name="geometry">
+                <rect>
+                 <x>190</x>
+                 <y>20</y>
+                 <width>101</width>
+                 <height>41</height>
+                </rect>
+               </property>
+               <property name="text">
+                <string>Show population</string>
+               </property>
+              </widget>
              </widget>
              <widget class="QPushButton" name="WNTR_list_WNTR_NODES_AND_PIPES_pushButton_6">
               <property name="geometry">
@@ -453,19 +440,19 @@
             </widget>
             <widget class="QWidget" name="tab_5">
              <attribute name="title">
-              <string>PandaPipes</string>
+              <string>Other simulators</string>
              </attribute>
              <widget class="QGroupBox" name="PandaPipes_simulate_btn">
               <property name="geometry">
                <rect>
                 <x>0</x>
-                <y>290</y>
+                <y>0</y>
                 <width>621</width>
                 <height>71</height>
                </rect>
               </property>
               <property name="title">
-               <string>Show map for timestamp</string>
+               <string>Pandapipes</string>
               </property>
               <widget class="QPushButton" name="PandaPipes_simulate_pushButton_4">
                <property name="geometry">
@@ -478,6 +465,143 @@
                </property>
                <property name="text">
                 <string>Simulate with pandapipes</string>
+               </property>
+              </widget>
+             </widget>
+             <widget class="QGroupBox" name="PandaPipes_simulate_btn_2">
+              <property name="geometry">
+               <rect>
+                <x>0</x>
+                <y>70</y>
+                <width>621</width>
+                <height>151</height>
+               </rect>
+              </property>
+              <property name="title">
+               <string>Show time series</string>
+              </property>
+              <widget class="QPushButton" name="EpyT_simulate_pushButton_5">
+               <property name="geometry">
+                <rect>
+                 <x>0</x>
+                 <y>20</y>
+                 <width>181</width>
+                 <height>41</height>
+                </rect>
+               </property>
+               <property name="text">
+                <string>Simulate with EpyT</string>
+               </property>
+              </widget>
+              <widget class="QPushButton" name="EpyT_showmodel_pushButton_6">
+               <property name="geometry">
+                <rect>
+                 <x>180</x>
+                 <y>20</y>
+                 <width>111</width>
+                 <height>41</height>
+                </rect>
+               </property>
+               <property name="text">
+                <string>Show EpyT model</string>
+               </property>
+              </widget>
+              <widget class="QPushButton" name="EpyT_showmodelelevation_pushButton_7">
+               <property name="geometry">
+                <rect>
+                 <x>290</x>
+                 <y>20</y>
+                 <width>121</width>
+                 <height>41</height>
+                </rect>
+               </property>
+               <property name="text">
+                <string>Show EpyT elevation</string>
+               </property>
+              </widget>
+              <widget class="QPushButton" name="EpyT_showmodelresultsfortiemstamp_pushButton_8">
+               <property name="geometry">
+                <rect>
+                 <x>0</x>
+                 <y>60</y>
+                 <width>181</width>
+                 <height>41</height>
+                </rect>
+               </property>
+               <property name="text">
+                <string>Show results for time stamp:</string>
+               </property>
+              </widget>
+              <widget class="QLineEdit" name="EpyT_timestamp_values_text_box_5">
+               <property name="geometry">
+                <rect>
+                 <x>183</x>
+                 <y>71</y>
+                 <width>41</width>
+                 <height>21</height>
+                </rect>
+               </property>
+               <property name="text">
+                <string>1</string>
+               </property>
+              </widget>
+              <widget class="QPushButton" name="EpyT_showmodelresultsfortiemstamp_pushButton_9">
+               <property name="geometry">
+                <rect>
+                 <x>0</x>
+                 <y>100</y>
+                 <width>181</width>
+                 <height>41</height>
+                </rect>
+               </property>
+               <property name="text">
+                <string>Show time series</string>
+               </property>
+              </widget>
+              <widget class="QLabel" name="label_12">
+               <property name="geometry">
+                <rect>
+                 <x>190</x>
+                 <y>110</y>
+                 <width>41</width>
+                 <height>16</height>
+                </rect>
+               </property>
+               <property name="text">
+                <string>Node</string>
+               </property>
+              </widget>
+              <widget class="QComboBox" name="EpyT_node_list_comboBox_3">
+               <property name="geometry">
+                <rect>
+                 <x>230</x>
+                 <y>110</y>
+                 <width>171</width>
+                 <height>22</height>
+                </rect>
+               </property>
+              </widget>
+              <widget class="QLabel" name="label_13">
+               <property name="geometry">
+                <rect>
+                 <x>410</x>
+                 <y>110</y>
+                 <width>41</width>
+                 <height>16</height>
+                </rect>
+               </property>
+               <property name="text">
+                <string>Link</string>
+               </property>
+              </widget>
+              <widget class="QComboBox" name="EpyT_link_list_comboBox_4">
+               <property name="geometry">
+                <rect>
+                 <x>440</x>
+                 <y>110</y>
+                 <width>171</width>
+                 <height>22</height>
+                </rect>
                </property>
               </widget>
              </widget>
