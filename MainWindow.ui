@@ -604,6 +604,19 @@
                 </rect>
                </property>
               </widget>
+              <widget class="QPushButton" name="EpyT_listnodelelevations_pushButton_8">
+               <property name="geometry">
+                <rect>
+                 <x>410</x>
+                 <y>20</y>
+                 <width>121</width>
+                 <height>41</height>
+                </rect>
+               </property>
+               <property name="text">
+                <string>List nodes elevations</string>
+               </property>
+              </widget>
              </widget>
             </widget>
            </widget>

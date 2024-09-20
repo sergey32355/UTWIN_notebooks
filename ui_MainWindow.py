@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'MainWindowoWtTfm.ui'
+## Form generated from reading UI file 'MainWindowImrFFV.ui'
 ##
 ## Created by: Qt User Interface Compiler version 6.7.2
 ##
@@ -199,6 +199,9 @@ class Ui_ui_MainWindow(object):
         self.EpyT_link_list_comboBox_4 = QComboBox(self.PandaPipes_simulate_btn_2)
         self.EpyT_link_list_comboBox_4.setObjectName(u"EpyT_link_list_comboBox_4")
         self.EpyT_link_list_comboBox_4.setGeometry(QRect(440, 110, 171, 22))
+        self.EpyT_listnodelelevations_pushButton_8 = QPushButton(self.PandaPipes_simulate_btn_2)
+        self.EpyT_listnodelelevations_pushButton_8.setObjectName(u"EpyT_listnodelelevations_pushButton_8")
+        self.EpyT_listnodelelevations_pushButton_8.setGeometry(QRect(410, 20, 121, 41))
         self.tabWidget_2.addTab(self.tab_5, "")
 
         self.verticalLayout.addWidget(self.tabWidget_2)
@@ -345,6 +348,7 @@ class Ui_ui_MainWindow(object):
         self.EpyT_showmodelresultsfortiemstamp_pushButton_9.setText(QCoreApplication.translate("ui_MainWindow", u"Show time series", None))
         self.label_12.setText(QCoreApplication.translate("ui_MainWindow", u"Node", None))
         self.label_13.setText(QCoreApplication.translate("ui_MainWindow", u"Link", None))
+        self.EpyT_listnodelelevations_pushButton_8.setText(QCoreApplication.translate("ui_MainWindow", u"List nodes elevations", None))
         self.tabWidget_2.setTabText(self.tabWidget_2.indexOf(self.tab_5), QCoreApplication.translate("ui_MainWindow", u"Other simulators", None))
         self.groupBox_2.setTitle(QCoreApplication.translate("ui_MainWindow", u"Globals", None))
         self.SimSteps_text_box.setText(QCoreApplication.translate("ui_MainWindow", u"5000", None))
