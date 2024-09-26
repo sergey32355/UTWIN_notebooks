@@ -115,7 +115,7 @@
           <item>
            <widget class="QTabWidget" name="tabWidget_2">
             <property name="currentIndex">
-             <number>3</number>
+             <number>2</number>
             </property>
             <widget class="QWidget" name="tab_3">
              <attribute name="title">
@@ -556,6 +556,19 @@
                <string>List wntr nodes</string>
               </property>
              </widget>
+             <widget class="QPushButton" name="WNTR_saveasinopmodel_click_2">
+              <property name="geometry">
+               <rect>
+                <x>0</x>
+                <y>110</y>
+                <width>131</width>
+                <height>41</height>
+               </rect>
+              </property>
+              <property name="text">
+               <string>Save graph into *.inp</string>
+              </property>
+             </widget>
             </widget>
             <widget class="QWidget" name="tab_5">
              <attribute name="title">
@@ -578,7 +591,7 @@
                 <rect>
                  <x>0</x>
                  <y>20</y>
-                 <width>181</width>
+                 <width>111</width>
                  <height>41</height>
                 </rect>
                </property>
@@ -871,7 +884,7 @@
                  <x>3</x>
                  <y>63</y>
                  <width>111</width>
-                 <height>41</height>
+                 <height>31</height>
                 </rect>
                </property>
                <property name="text">
@@ -891,9 +904,9 @@
               <widget class="QComboBox" name="TSNeT_node_list_comboBox_4">
                <property name="geometry">
                 <rect>
-                 <x>153</x>
-                 <y>73</y>
-                 <width>191</width>
+                 <x>160</x>
+                 <y>70</y>
+                 <width>181</width>
                  <height>22</height>
                 </rect>
                </property>
@@ -924,10 +937,10 @@
                 <string>Node</string>
                </property>
               </widget>
-              <widget class="QCheckBox" name="TSNet_emitterdischarge_checkBox_4">
+              <widget class="QCheckBox" name="TSNet_noidehead_checkBox_4">
                <property name="geometry">
                 <rect>
-                 <x>120</x>
+                 <x>160</x>
                  <y>100</y>
                  <width>51</width>
                  <height>20</height>
@@ -937,69 +950,173 @@
                 <string>Head</string>
                </property>
               </widget>
-              <widget class="QCheckBox" name="TSNet_demanddischarge_checkBox_5">
+              <widget class="QCheckBox" name="TSNet_nodeemit_checkBox_5">
                <property name="geometry">
                 <rect>
-                 <x>170</x>
+                 <x>210</x>
                  <y>100</y>
                  <width>101</width>
                  <height>20</height>
                 </rect>
                </property>
                <property name="text">
-                <string>Emit_discharge</string>
+                <string>Emit</string>
                </property>
               </widget>
-              <widget class="QCheckBox" name="TSNet_linkheadstart_checkBox_5">
+              <widget class="QCheckBox" name="TSNet_starthead_checkBox_5">
                <property name="geometry">
                 <rect>
-                 <x>370</x>
-                 <y>100</y>
+                 <x>360</x>
+                 <y>90</y>
                  <width>71</width>
                  <height>20</height>
                 </rect>
                </property>
                <property name="text">
-                <string>Link head</string>
+                <string>S.head</string>
                </property>
               </widget>
-              <widget class="QCheckBox" name="TSNet_linkheadstart_checkBox_6">
+              <widget class="QCheckBox" name="TSNet_endhead_checkBox_6">
                <property name="geometry">
                 <rect>
-                 <x>440</x>
-                 <y>100</y>
+                 <x>414</x>
+                 <y>90</y>
                  <width>71</width>
                  <height>20</height>
                 </rect>
                </property>
                <property name="text">
-                <string>Velocity</string>
+                <string>E.head</string>
                </property>
               </widget>
-              <widget class="QCheckBox" name="TSNet_linkheadstart_checkBox_7">
+              <widget class="QCheckBox" name="TSNet_startvelociy_checkBox_7">
                <property name="geometry">
                 <rect>
-                 <x>500</x>
-                 <y>100</y>
+                 <x>469</x>
+                 <y>90</y>
                  <width>71</width>
                  <height>20</height>
                 </rect>
                </property>
                <property name="text">
-                <string>Flowrate</string>
+                <string>S.velocity</string>
                </property>
               </widget>
               <widget class="QCheckBox" name="TSNet_demanddischarge_checkBox_6">
                <property name="geometry">
                 <rect>
-                 <x>270</x>
+                 <x>260</x>
                  <y>100</y>
                  <width>101</width>
                  <height>20</height>
                 </rect>
                </property>
                <property name="text">
-                <string>Demand discharge</string>
+                <string>Demand </string>
+               </property>
+              </widget>
+              <widget class="QCheckBox" name="TSNet_endvelcity_checkBox_8">
+               <property name="geometry">
+                <rect>
+                 <x>540</x>
+                 <y>90</y>
+                 <width>71</width>
+                 <height>20</height>
+                </rect>
+               </property>
+               <property name="text">
+                <string>E.velocity</string>
+               </property>
+              </widget>
+              <widget class="QCheckBox" name="TSNet_startflow_checkBox_9">
+               <property name="geometry">
+                <rect>
+                 <x>360</x>
+                 <y>105</y>
+                 <width>71</width>
+                 <height>20</height>
+                </rect>
+               </property>
+               <property name="text">
+                <string>S.flow</string>
+               </property>
+              </widget>
+              <widget class="QCheckBox" name="TSNet_endflow_checkBox_10">
+               <property name="geometry">
+                <rect>
+                 <x>413</x>
+                 <y>105</y>
+                 <width>71</width>
+                 <height>20</height>
+                </rect>
+               </property>
+               <property name="text">
+                <string>S.flow</string>
+               </property>
+              </widget>
+              <widget class="QLabel" name="label_19">
+               <property name="geometry">
+                <rect>
+                 <x>120</x>
+                 <y>31</y>
+                 <width>21</width>
+                 <height>16</height>
+                </rect>
+               </property>
+               <property name="text">
+                <string>dt:</string>
+               </property>
+              </widget>
+              <widget class="QLineEdit" name="Pollution_pollutionlevel_text_box_7">
+               <property name="geometry">
+                <rect>
+                 <x>140</x>
+                 <y>30</y>
+                 <width>41</width>
+                 <height>21</height>
+                </rect>
+               </property>
+               <property name="text">
+                <string>0.1</string>
+               </property>
+              </widget>
+              <widget class="QPushButton" name="TSNet_resultstimeseries_pushButton_11">
+               <property name="geometry">
+                <rect>
+                 <x>2</x>
+                 <y>96</y>
+                 <width>111</width>
+                 <height>21</height>
+                </rect>
+               </property>
+               <property name="text">
+                <string>List values</string>
+               </property>
+              </widget>
+              <widget class="QLabel" name="label_20">
+               <property name="geometry">
+                <rect>
+                 <x>187</x>
+                 <y>31</y>
+                 <width>51</width>
+                 <height>16</height>
+                </rect>
+               </property>
+               <property name="text">
+                <string>Velocity:</string>
+               </property>
+              </widget>
+              <widget class="QLineEdit" name="Pollution_pollutionvelocity_text_box_8">
+               <property name="geometry">
+                <rect>
+                 <x>234</x>
+                 <y>30</y>
+                 <width>41</width>
+                 <height>21</height>
+                </rect>
+               </property>
+               <property name="text">
+                <string>0.1</string>
                </property>
               </widget>
              </widget>
@@ -1260,6 +1377,11 @@
                   <string>const</string>
                  </property>
                 </item>
+                <item>
+                 <property name="text">
+                  <string>from_file</string>
+                 </property>
+                </item>
                </widget>
                <widget class="QLabel" name="label_14">
                 <property name="geometry">
@@ -1301,6 +1423,32 @@
                 </property>
                 <property name="text">
                  <string>0.76</string>
+                </property>
+               </widget>
+               <widget class="QPushButton" name="Clouds_loadtimeseriesfromfile_pushButton_11">
+                <property name="geometry">
+                 <rect>
+                  <x>0</x>
+                  <y>47</y>
+                  <width>101</width>
+                  <height>31</height>
+                 </rect>
+                </property>
+                <property name="text">
+                 <string>Load from file</string>
+                </property>
+               </widget>
+               <widget class="QLineEdit" name="Clouds_Timeseries_text_box_4">
+                <property name="geometry">
+                 <rect>
+                  <x>103</x>
+                  <y>52</y>
+                  <width>501</width>
+                  <height>21</height>
+                 </rect>
+                </property>
+                <property name="text">
+                 <string>C:\Tmp</string>
                 </property>
                </widget>
               </widget>
@@ -1533,32 +1681,6 @@
                 </property>
                 <property name="text">
                  <string>1</string>
-                </property>
-               </widget>
-               <widget class="QLabel" name="label_19">
-                <property name="geometry">
-                 <rect>
-                  <x>330</x>
-                  <y>80</y>
-                  <width>21</width>
-                  <height>16</height>
-                 </rect>
-                </property>
-                <property name="text">
-                 <string>dt:</string>
-                </property>
-               </widget>
-               <widget class="QLineEdit" name="Pollution_pollutionlevel_text_box_7">
-                <property name="geometry">
-                 <rect>
-                  <x>347</x>
-                  <y>77</y>
-                  <width>41</width>
-                  <height>21</height>
-                 </rect>
-                </property>
-                <property name="text">
-                 <string>0.1</string>
                 </property>
                </widget>
               </widget>
