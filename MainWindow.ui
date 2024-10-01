@@ -1304,8 +1304,39 @@
             <item>
              <widget class="QTabWidget" name="tabWidget_3">
               <property name="currentIndex">
-               <number>4</number>
+               <number>0</number>
               </property>
+              <widget class="QWidget" name="tab_12">
+               <attribute name="title">
+                <string>Joao_INP_files&amp;Graphs</string>
+               </attribute>
+               <widget class="QCheckBox" name="INP_files_checkstrangeelevations_button">
+                <property name="geometry">
+                 <rect>
+                  <x>10</x>
+                  <y>10</y>
+                  <width>271</width>
+                  <height>20</height>
+                 </rect>
+                </property>
+                <property name="text">
+                 <string>Check strange elevations of nodes in inp files</string>
+                </property>
+               </widget>
+               <widget class="QPushButton" name="pushButton">
+                <property name="geometry">
+                 <rect>
+                  <x>450</x>
+                  <y>10</y>
+                  <width>91</width>
+                  <height>24</height>
+                 </rect>
+                </property>
+                <property name="text">
+                 <string>Generate graph</string>
+                </property>
+               </widget>
+              </widget>
               <widget class="QWidget" name="tab_10">
                <attribute name="title">
                 <string>Scenario</string>

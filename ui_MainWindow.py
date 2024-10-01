@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'MainWindowsnglGj.ui'
+## Form generated from reading UI file 'MainWindowEwMyJw.ui'
 ##
 ## Created by: Qt User Interface Compiler version 6.7.2
 ##
@@ -367,6 +367,12 @@ class Ui_ui_MainWindow(object):
         self.verticalLayout_2.setContentsMargins(0, 0, 0, 0)
         self.tabWidget_3 = QTabWidget(self.verticalLayoutWidget_2)
         self.tabWidget_3.setObjectName(u"tabWidget_3")
+        self.tab_12 = QWidget()
+        self.tab_12.setObjectName(u"tab_12")
+        self.INP_files_checkstrangeelevations_button = QCheckBox(self.tab_12)
+        self.INP_files_checkstrangeelevations_button.setObjectName(u"INP_files_checkstrangeelevations_button")
+        self.INP_files_checkstrangeelevations_button.setGeometry(QRect(10, 10, 211, 20))
+        self.tabWidget_3.addTab(self.tab_12, "")
         self.tab_10 = QWidget()
         self.tab_10.setObjectName(u"tab_10")
         self.comboBox = QComboBox(self.tab_10)
@@ -494,7 +500,7 @@ class Ui_ui_MainWindow(object):
 
         self.tabWidget.setCurrentIndex(0)
         self.tabWidget_2.setCurrentIndex(2)
-        self.tabWidget_3.setCurrentIndex(4)
+        self.tabWidget_3.setCurrentIndex(0)
 
 
         QMetaObject.connectSlotsByName(ui_MainWindow)
@@ -601,6 +607,8 @@ class Ui_ui_MainWindow(object):
         self.WNTR_SimSave_text_box_2.setText(QCoreApplication.translate("ui_MainWindow", u"C:\\Tmp", None))
         self.WNTR_save_path_browse_pushButton_6.setText(QCoreApplication.translate("ui_MainWindow", u"Browse", None))
         self.groupBox_9.setTitle(QCoreApplication.translate("ui_MainWindow", u"Settings", None))
+        self.INP_files_checkstrangeelevations_button.setText(QCoreApplication.translate("ui_MainWindow", u"Check strange elevations of nodes", None))
+        self.tabWidget_3.setTabText(self.tabWidget_3.indexOf(self.tab_12), QCoreApplication.translate("ui_MainWindow", u"Joao_INP_files&Graphs", None))
         self.comboBox.setItemText(0, QCoreApplication.translate("ui_MainWindow", u"Clouds", None))
         self.comboBox.setItemText(1, QCoreApplication.translate("ui_MainWindow", u"Clouds+terrain", None))
 

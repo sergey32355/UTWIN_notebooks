@@ -1,4 +1,4 @@
-  Page 1                                    Thu Sep 26 09:25:09 2024
+  Page 1                                    Tue Oct 01 12:29:32 2024
 
   ******************************************************************
   *                           E P A N E T                          *
@@ -17,24 +17,1026 @@
       Number of Valves .................. 0
       Headloss Formula .................. Hazen-Williams
       Nodal Demand Model ................ DDA
-      Hydraulic Timestep ................ 1.00 hrs
+      Hydraulic Timestep ................ 0.02 min
       Hydraulic Accuracy ................ 0.001000
       Status Check Frequency ............ 2
       Maximum Trials Checked ............ 10
       Damping Limit Threshold ........... 0.000000
       Maximum Trials .................... 200
-      Quality Analysis .................. None
+      Quality Analysis .................. Chemical
+      Water Quality Time Step ........... 0.02 min
+      Water Quality Tolerance ........... 0.01 mg/L
       Specific Gravity .................. 1.00
       Relative Kinematic Viscosity ...... 1.00
       Relative Chemical Diffusivity ..... 1.00
       Demand Multiplier ................. 1.00
-      Total Duration .................... 0.00 hrs
+      Total Duration .................... 8.33 min
       Reporting Criteria:
          No Nodes
          No Links
    
-  Analysis begun Thu Sep 26 09:25:09 2024
+  Analysis begun Tue Oct 01 12:29:32 2024
 
   WARNING: Negative pressures at 0:00:00 hrs.
    
-  Analysis ended Thu Sep 26 09:25:09 2024
+  WARNING: Negative pressures at 0:00:01 hrs.
+   
+  WARNING: Negative pressures at 0:00:02 hrs.
+   
+  WARNING: Negative pressures at 0:00:03 hrs.
+   
+  WARNING: Negative pressures at 0:00:04 hrs.
+   
+  WARNING: Negative pressures at 0:00:05 hrs.
+   
+  WARNING: Negative pressures at 0:00:06 hrs.
+   
+  WARNING: Negative pressures at 0:00:07 hrs.
+   
+  WARNING: Negative pressures at 0:00:08 hrs.
+   
+  WARNING: Negative pressures at 0:00:09 hrs.
+   
+  WARNING: Negative pressures at 0:00:10 hrs.
+   
+  WARNING: Negative pressures at 0:00:11 hrs.
+   
+  WARNING: Negative pressures at 0:00:12 hrs.
+   
+  WARNING: Negative pressures at 0:00:13 hrs.
+   
+  WARNING: Negative pressures at 0:00:14 hrs.
+   
+  WARNING: Negative pressures at 0:00:15 hrs.
+   
+  WARNING: Negative pressures at 0:00:16 hrs.
+   
+  WARNING: Negative pressures at 0:00:17 hrs.
+   
+  WARNING: Negative pressures at 0:00:18 hrs.
+   
+  WARNING: Negative pressures at 0:00:19 hrs.
+   
+  WARNING: Negative pressures at 0:00:20 hrs.
+   
+  WARNING: Negative pressures at 0:00:21 hrs.
+   
+  WARNING: Negative pressures at 0:00:22 hrs.
+   
+  WARNING: Negative pressures at 0:00:23 hrs.
+   
+  WARNING: Negative pressures at 0:00:24 hrs.
+   
+  WARNING: Negative pressures at 0:00:25 hrs.
+   
+  WARNING: Negative pressures at 0:00:26 hrs.
+   
+  WARNING: Negative pressures at 0:00:27 hrs.
+   
+  WARNING: Negative pressures at 0:00:28 hrs.
+   
+  WARNING: Negative pressures at 0:00:29 hrs.
+   
+  WARNING: Negative pressures at 0:00:30 hrs.
+   
+  WARNING: Negative pressures at 0:00:31 hrs.
+   
+  WARNING: Negative pressures at 0:00:32 hrs.
+   
+  WARNING: Negative pressures at 0:00:33 hrs.
+   
+  WARNING: Negative pressures at 0:00:34 hrs.
+   
+  WARNING: Negative pressures at 0:00:35 hrs.
+   
+  WARNING: Negative pressures at 0:00:36 hrs.
+   
+  WARNING: Negative pressures at 0:00:37 hrs.
+   
+  WARNING: Negative pressures at 0:00:38 hrs.
+   
+  WARNING: Negative pressures at 0:00:39 hrs.
+   
+  WARNING: Negative pressures at 0:00:40 hrs.
+   
+  WARNING: Negative pressures at 0:00:41 hrs.
+   
+  WARNING: Negative pressures at 0:00:42 hrs.
+   
+  WARNING: Negative pressures at 0:00:43 hrs.
+   
+  WARNING: Negative pressures at 0:00:44 hrs.
+   
+  WARNING: Negative pressures at 0:00:45 hrs.
+   
+  WARNING: Negative pressures at 0:00:46 hrs.
+   
+  WARNING: Negative pressures at 0:00:47 hrs.
+   
+  WARNING: Negative pressures at 0:00:48 hrs.
+   
+  WARNING: Negative pressures at 0:00:49 hrs.
+   
+  WARNING: Negative pressures at 0:00:50 hrs.
+   
+  WARNING: Negative pressures at 0:00:51 hrs.
+   
+  WARNING: Negative pressures at 0:00:52 hrs.
+   
+  WARNING: Negative pressures at 0:00:53 hrs.
+   
+  WARNING: Negative pressures at 0:00:54 hrs.
+   
+  WARNING: Negative pressures at 0:00:55 hrs.
+   
+  WARNING: Negative pressures at 0:00:56 hrs.
+   
+  WARNING: Negative pressures at 0:00:57 hrs.
+   
+  WARNING: Negative pressures at 0:00:58 hrs.
+   
+  WARNING: Negative pressures at 0:00:59 hrs.
+   
+  WARNING: Negative pressures at 0:01:00 hrs.
+   
+  WARNING: Negative pressures at 0:01:01 hrs.
+   
+  WARNING: Negative pressures at 0:01:02 hrs.
+   
+  WARNING: Negative pressures at 0:01:03 hrs.
+   
+  WARNING: Negative pressures at 0:01:04 hrs.
+   
+  WARNING: Negative pressures at 0:01:05 hrs.
+   
+  WARNING: Negative pressures at 0:01:06 hrs.
+   
+  WARNING: Negative pressures at 0:01:07 hrs.
+   
+  WARNING: Negative pressures at 0:01:08 hrs.
+   
+  WARNING: Negative pressures at 0:01:09 hrs.
+   
+  WARNING: Negative pressures at 0:01:10 hrs.
+   
+  WARNING: Negative pressures at 0:01:11 hrs.
+   
+  WARNING: Negative pressures at 0:01:12 hrs.
+   
+  WARNING: Negative pressures at 0:01:13 hrs.
+   
+  WARNING: Negative pressures at 0:01:14 hrs.
+   
+  WARNING: Negative pressures at 0:01:15 hrs.
+   
+  WARNING: Negative pressures at 0:01:16 hrs.
+   
+  WARNING: Negative pressures at 0:01:17 hrs.
+   
+  WARNING: Negative pressures at 0:01:18 hrs.
+   
+  WARNING: Negative pressures at 0:01:19 hrs.
+   
+  WARNING: Negative pressures at 0:01:20 hrs.
+   
+  WARNING: Negative pressures at 0:01:21 hrs.
+   
+  WARNING: Negative pressures at 0:01:22 hrs.
+   
+  WARNING: Negative pressures at 0:01:23 hrs.
+   
+  WARNING: Negative pressures at 0:01:24 hrs.
+   
+  WARNING: Negative pressures at 0:01:25 hrs.
+   
+  WARNING: Negative pressures at 0:01:26 hrs.
+   
+  WARNING: Negative pressures at 0:01:27 hrs.
+   
+  WARNING: Negative pressures at 0:01:28 hrs.
+   
+  WARNING: Negative pressures at 0:01:29 hrs.
+   
+  WARNING: Negative pressures at 0:01:30 hrs.
+   
+  WARNING: Negative pressures at 0:01:31 hrs.
+   
+  WARNING: Negative pressures at 0:01:32 hrs.
+   
+  WARNING: Negative pressures at 0:01:33 hrs.
+   
+  WARNING: Negative pressures at 0:01:34 hrs.
+   
+  WARNING: Negative pressures at 0:01:35 hrs.
+   
+  WARNING: Negative pressures at 0:01:36 hrs.
+   
+  WARNING: Negative pressures at 0:01:37 hrs.
+   
+  WARNING: Negative pressures at 0:01:38 hrs.
+   
+  WARNING: Negative pressures at 0:01:39 hrs.
+   
+  WARNING: Negative pressures at 0:01:40 hrs.
+   
+  WARNING: Negative pressures at 0:01:41 hrs.
+   
+  WARNING: Negative pressures at 0:01:42 hrs.
+   
+  WARNING: Negative pressures at 0:01:43 hrs.
+   
+  WARNING: Negative pressures at 0:01:44 hrs.
+   
+  WARNING: Negative pressures at 0:01:45 hrs.
+   
+  WARNING: Negative pressures at 0:01:46 hrs.
+   
+  WARNING: Negative pressures at 0:01:47 hrs.
+   
+  WARNING: Negative pressures at 0:01:48 hrs.
+   
+  WARNING: Negative pressures at 0:01:49 hrs.
+   
+  WARNING: Negative pressures at 0:01:50 hrs.
+   
+  WARNING: Negative pressures at 0:01:51 hrs.
+   
+  WARNING: Negative pressures at 0:01:52 hrs.
+   
+  WARNING: Negative pressures at 0:01:53 hrs.
+   
+  WARNING: Negative pressures at 0:01:54 hrs.
+   
+  WARNING: Negative pressures at 0:01:55 hrs.
+   
+  WARNING: Negative pressures at 0:01:56 hrs.
+   
+  WARNING: Negative pressures at 0:01:57 hrs.
+   
+  WARNING: Negative pressures at 0:01:58 hrs.
+   
+  WARNING: Negative pressures at 0:01:59 hrs.
+   
+  WARNING: Negative pressures at 0:02:00 hrs.
+   
+  WARNING: Negative pressures at 0:02:01 hrs.
+   
+  WARNING: Negative pressures at 0:02:02 hrs.
+   
+  WARNING: Negative pressures at 0:02:03 hrs.
+   
+  WARNING: Negative pressures at 0:02:04 hrs.
+   
+  WARNING: Negative pressures at 0:02:05 hrs.
+   
+  WARNING: Negative pressures at 0:02:06 hrs.
+   
+  WARNING: Negative pressures at 0:02:07 hrs.
+   
+  WARNING: Negative pressures at 0:02:08 hrs.
+   
+  WARNING: Negative pressures at 0:02:09 hrs.
+   
+  WARNING: Negative pressures at 0:02:10 hrs.
+   
+  WARNING: Negative pressures at 0:02:11 hrs.
+   
+  WARNING: Negative pressures at 0:02:12 hrs.
+   
+  WARNING: Negative pressures at 0:02:13 hrs.
+   
+  WARNING: Negative pressures at 0:02:14 hrs.
+   
+  WARNING: Negative pressures at 0:02:15 hrs.
+   
+  WARNING: Negative pressures at 0:02:16 hrs.
+   
+  WARNING: Negative pressures at 0:02:17 hrs.
+   
+  WARNING: Negative pressures at 0:02:18 hrs.
+   
+  WARNING: Negative pressures at 0:02:19 hrs.
+   
+  WARNING: Negative pressures at 0:02:20 hrs.
+   
+  WARNING: Negative pressures at 0:02:21 hrs.
+   
+  WARNING: Negative pressures at 0:02:22 hrs.
+   
+  WARNING: Negative pressures at 0:02:23 hrs.
+   
+  WARNING: Negative pressures at 0:02:24 hrs.
+   
+  WARNING: Negative pressures at 0:02:25 hrs.
+   
+  WARNING: Negative pressures at 0:02:26 hrs.
+   
+  WARNING: Negative pressures at 0:02:27 hrs.
+   
+  WARNING: Negative pressures at 0:02:28 hrs.
+   
+  WARNING: Negative pressures at 0:02:29 hrs.
+   
+  WARNING: Negative pressures at 0:02:30 hrs.
+   
+  WARNING: Negative pressures at 0:02:31 hrs.
+   
+  WARNING: Negative pressures at 0:02:32 hrs.
+   
+  WARNING: Negative pressures at 0:02:33 hrs.
+   
+  WARNING: Negative pressures at 0:02:34 hrs.
+   
+  WARNING: Negative pressures at 0:02:35 hrs.
+   
+  WARNING: Negative pressures at 0:02:36 hrs.
+   
+  WARNING: Negative pressures at 0:02:37 hrs.
+   
+  WARNING: Negative pressures at 0:02:38 hrs.
+   
+  WARNING: Negative pressures at 0:02:39 hrs.
+   
+  WARNING: Negative pressures at 0:02:40 hrs.
+   
+  WARNING: Negative pressures at 0:02:41 hrs.
+   
+  WARNING: Negative pressures at 0:02:42 hrs.
+   
+  WARNING: Negative pressures at 0:02:43 hrs.
+   
+  WARNING: Negative pressures at 0:02:44 hrs.
+   
+  WARNING: Negative pressures at 0:02:45 hrs.
+   
+  WARNING: Negative pressures at 0:02:46 hrs.
+   
+  WARNING: Negative pressures at 0:02:47 hrs.
+   
+  WARNING: Negative pressures at 0:02:48 hrs.
+   
+  WARNING: Negative pressures at 0:02:49 hrs.
+   
+  WARNING: Negative pressures at 0:02:50 hrs.
+   
+  WARNING: Negative pressures at 0:02:51 hrs.
+   
+  WARNING: Negative pressures at 0:02:52 hrs.
+   
+  WARNING: Negative pressures at 0:02:53 hrs.
+   
+  WARNING: Negative pressures at 0:02:54 hrs.
+   
+  WARNING: Negative pressures at 0:02:55 hrs.
+   
+  WARNING: Negative pressures at 0:02:56 hrs.
+   
+  WARNING: Negative pressures at 0:02:57 hrs.
+   
+  WARNING: Negative pressures at 0:02:58 hrs.
+   
+  WARNING: Negative pressures at 0:02:59 hrs.
+   
+  WARNING: Negative pressures at 0:03:00 hrs.
+   
+  WARNING: Negative pressures at 0:03:01 hrs.
+   
+  WARNING: Negative pressures at 0:03:02 hrs.
+   
+  WARNING: Negative pressures at 0:03:03 hrs.
+   
+  WARNING: Negative pressures at 0:03:04 hrs.
+   
+  WARNING: Negative pressures at 0:03:05 hrs.
+   
+  WARNING: Negative pressures at 0:03:06 hrs.
+   
+  WARNING: Negative pressures at 0:03:07 hrs.
+   
+  WARNING: Negative pressures at 0:03:08 hrs.
+   
+  WARNING: Negative pressures at 0:03:09 hrs.
+   
+  WARNING: Negative pressures at 0:03:10 hrs.
+   
+  WARNING: Negative pressures at 0:03:11 hrs.
+   
+  WARNING: Negative pressures at 0:03:12 hrs.
+   
+  WARNING: Negative pressures at 0:03:13 hrs.
+   
+  WARNING: Negative pressures at 0:03:14 hrs.
+   
+  WARNING: Negative pressures at 0:03:15 hrs.
+   
+  WARNING: Negative pressures at 0:03:16 hrs.
+   
+  WARNING: Negative pressures at 0:03:17 hrs.
+   
+  WARNING: Negative pressures at 0:03:18 hrs.
+   
+  WARNING: Negative pressures at 0:03:19 hrs.
+   
+  WARNING: Negative pressures at 0:03:20 hrs.
+   
+  WARNING: Negative pressures at 0:03:21 hrs.
+   
+  WARNING: Negative pressures at 0:03:22 hrs.
+   
+  WARNING: Negative pressures at 0:03:23 hrs.
+   
+  WARNING: Negative pressures at 0:03:24 hrs.
+   
+  WARNING: Negative pressures at 0:03:25 hrs.
+   
+  WARNING: Negative pressures at 0:03:26 hrs.
+   
+  WARNING: Negative pressures at 0:03:27 hrs.
+   
+  WARNING: Negative pressures at 0:03:28 hrs.
+   
+  WARNING: Negative pressures at 0:03:29 hrs.
+   
+  WARNING: Negative pressures at 0:03:30 hrs.
+   
+  WARNING: Negative pressures at 0:03:31 hrs.
+   
+  WARNING: Negative pressures at 0:03:32 hrs.
+   
+  WARNING: Negative pressures at 0:03:33 hrs.
+   
+  WARNING: Negative pressures at 0:03:34 hrs.
+   
+  WARNING: Negative pressures at 0:03:35 hrs.
+   
+  WARNING: Negative pressures at 0:03:36 hrs.
+   
+  WARNING: Negative pressures at 0:03:37 hrs.
+   
+  WARNING: Negative pressures at 0:03:38 hrs.
+   
+  WARNING: Negative pressures at 0:03:39 hrs.
+   
+  WARNING: Negative pressures at 0:03:40 hrs.
+   
+  WARNING: Negative pressures at 0:03:41 hrs.
+   
+  WARNING: Negative pressures at 0:03:42 hrs.
+   
+  WARNING: Negative pressures at 0:03:43 hrs.
+   
+  WARNING: Negative pressures at 0:03:44 hrs.
+   
+  WARNING: Negative pressures at 0:03:45 hrs.
+   
+  WARNING: Negative pressures at 0:03:46 hrs.
+   
+  WARNING: Negative pressures at 0:03:47 hrs.
+   
+  WARNING: Negative pressures at 0:03:48 hrs.
+   
+  WARNING: Negative pressures at 0:03:49 hrs.
+   
+  WARNING: Negative pressures at 0:03:50 hrs.
+   
+  WARNING: Negative pressures at 0:03:51 hrs.
+   
+  WARNING: Negative pressures at 0:03:52 hrs.
+   
+  WARNING: Negative pressures at 0:03:53 hrs.
+   
+  WARNING: Negative pressures at 0:03:54 hrs.
+   
+  WARNING: Negative pressures at 0:03:55 hrs.
+   
+  WARNING: Negative pressures at 0:03:56 hrs.
+   
+  WARNING: Negative pressures at 0:03:57 hrs.
+   
+  WARNING: Negative pressures at 0:03:58 hrs.
+   
+  WARNING: Negative pressures at 0:03:59 hrs.
+   
+  WARNING: Negative pressures at 0:04:00 hrs.
+   
+  WARNING: Negative pressures at 0:04:01 hrs.
+   
+  WARNING: Negative pressures at 0:04:02 hrs.
+   
+  WARNING: Negative pressures at 0:04:03 hrs.
+   
+  WARNING: Negative pressures at 0:04:04 hrs.
+   
+  WARNING: Negative pressures at 0:04:05 hrs.
+   
+  WARNING: Negative pressures at 0:04:06 hrs.
+   
+  WARNING: Negative pressures at 0:04:07 hrs.
+   
+  WARNING: Negative pressures at 0:04:08 hrs.
+   
+  WARNING: Negative pressures at 0:04:09 hrs.
+   
+  WARNING: Negative pressures at 0:04:10 hrs.
+   
+  WARNING: Negative pressures at 0:04:11 hrs.
+   
+  WARNING: Negative pressures at 0:04:12 hrs.
+   
+  WARNING: Negative pressures at 0:04:13 hrs.
+   
+  WARNING: Negative pressures at 0:04:14 hrs.
+   
+  WARNING: Negative pressures at 0:04:15 hrs.
+   
+  WARNING: Negative pressures at 0:04:16 hrs.
+   
+  WARNING: Negative pressures at 0:04:17 hrs.
+   
+  WARNING: Negative pressures at 0:04:18 hrs.
+   
+  WARNING: Negative pressures at 0:04:19 hrs.
+   
+  WARNING: Negative pressures at 0:04:20 hrs.
+   
+  WARNING: Negative pressures at 0:04:21 hrs.
+   
+  WARNING: Negative pressures at 0:04:22 hrs.
+   
+  WARNING: Negative pressures at 0:04:23 hrs.
+   
+  WARNING: Negative pressures at 0:04:24 hrs.
+   
+  WARNING: Negative pressures at 0:04:25 hrs.
+   
+  WARNING: Negative pressures at 0:04:26 hrs.
+   
+  WARNING: Negative pressures at 0:04:27 hrs.
+   
+  WARNING: Negative pressures at 0:04:28 hrs.
+   
+  WARNING: Negative pressures at 0:04:29 hrs.
+   
+  WARNING: Negative pressures at 0:04:30 hrs.
+   
+  WARNING: Negative pressures at 0:04:31 hrs.
+   
+  WARNING: Negative pressures at 0:04:32 hrs.
+   
+  WARNING: Negative pressures at 0:04:33 hrs.
+   
+  WARNING: Negative pressures at 0:04:34 hrs.
+   
+  WARNING: Negative pressures at 0:04:35 hrs.
+   
+  WARNING: Negative pressures at 0:04:36 hrs.
+   
+  WARNING: Negative pressures at 0:04:37 hrs.
+   
+  WARNING: Negative pressures at 0:04:38 hrs.
+   
+  WARNING: Negative pressures at 0:04:39 hrs.
+   
+  WARNING: Negative pressures at 0:04:40 hrs.
+   
+  WARNING: Negative pressures at 0:04:41 hrs.
+   
+  WARNING: Negative pressures at 0:04:42 hrs.
+   
+  WARNING: Negative pressures at 0:04:43 hrs.
+   
+  WARNING: Negative pressures at 0:04:44 hrs.
+   
+  WARNING: Negative pressures at 0:04:45 hrs.
+   
+  WARNING: Negative pressures at 0:04:46 hrs.
+   
+  WARNING: Negative pressures at 0:04:47 hrs.
+   
+  WARNING: Negative pressures at 0:04:48 hrs.
+   
+  WARNING: Negative pressures at 0:04:49 hrs.
+   
+  WARNING: Negative pressures at 0:04:50 hrs.
+   
+  WARNING: Negative pressures at 0:04:51 hrs.
+   
+  WARNING: Negative pressures at 0:04:52 hrs.
+   
+  WARNING: Negative pressures at 0:04:53 hrs.
+   
+  WARNING: Negative pressures at 0:04:54 hrs.
+   
+  WARNING: Negative pressures at 0:04:55 hrs.
+   
+  WARNING: Negative pressures at 0:04:56 hrs.
+   
+  WARNING: Negative pressures at 0:04:57 hrs.
+   
+  WARNING: Negative pressures at 0:04:58 hrs.
+   
+  WARNING: Negative pressures at 0:04:59 hrs.
+   
+  WARNING: Negative pressures at 0:05:00 hrs.
+   
+  WARNING: Negative pressures at 0:05:01 hrs.
+   
+  WARNING: Negative pressures at 0:05:02 hrs.
+   
+  WARNING: Negative pressures at 0:05:03 hrs.
+   
+  WARNING: Negative pressures at 0:05:04 hrs.
+   
+  WARNING: Negative pressures at 0:05:05 hrs.
+   
+  WARNING: Negative pressures at 0:05:06 hrs.
+   
+  WARNING: Negative pressures at 0:05:07 hrs.
+   
+  WARNING: Negative pressures at 0:05:08 hrs.
+   
+  WARNING: Negative pressures at 0:05:09 hrs.
+   
+  WARNING: Negative pressures at 0:05:10 hrs.
+   
+  WARNING: Negative pressures at 0:05:11 hrs.
+   
+  WARNING: Negative pressures at 0:05:12 hrs.
+   
+  WARNING: Negative pressures at 0:05:13 hrs.
+   
+  WARNING: Negative pressures at 0:05:14 hrs.
+   
+  WARNING: Negative pressures at 0:05:15 hrs.
+   
+  WARNING: Negative pressures at 0:05:16 hrs.
+   
+  WARNING: Negative pressures at 0:05:17 hrs.
+   
+  WARNING: Negative pressures at 0:05:18 hrs.
+   
+  WARNING: Negative pressures at 0:05:19 hrs.
+   
+  WARNING: Negative pressures at 0:05:20 hrs.
+   
+  WARNING: Negative pressures at 0:05:21 hrs.
+   
+  WARNING: Negative pressures at 0:05:22 hrs.
+   
+  WARNING: Negative pressures at 0:05:23 hrs.
+   
+  WARNING: Negative pressures at 0:05:24 hrs.
+   
+  WARNING: Negative pressures at 0:05:25 hrs.
+   
+  WARNING: Negative pressures at 0:05:26 hrs.
+   
+  WARNING: Negative pressures at 0:05:27 hrs.
+   
+  WARNING: Negative pressures at 0:05:28 hrs.
+   
+  WARNING: Negative pressures at 0:05:29 hrs.
+   
+  WARNING: Negative pressures at 0:05:30 hrs.
+   
+  WARNING: Negative pressures at 0:05:31 hrs.
+   
+  WARNING: Negative pressures at 0:05:32 hrs.
+   
+  WARNING: Negative pressures at 0:05:33 hrs.
+   
+  WARNING: Negative pressures at 0:05:34 hrs.
+   
+  WARNING: Negative pressures at 0:05:35 hrs.
+   
+  WARNING: Negative pressures at 0:05:36 hrs.
+   
+  WARNING: Negative pressures at 0:05:37 hrs.
+   
+  WARNING: Negative pressures at 0:05:38 hrs.
+   
+  WARNING: Negative pressures at 0:05:39 hrs.
+   
+  WARNING: Negative pressures at 0:05:40 hrs.
+   
+  WARNING: Negative pressures at 0:05:41 hrs.
+   
+  WARNING: Negative pressures at 0:05:42 hrs.
+   
+  WARNING: Negative pressures at 0:05:43 hrs.
+   
+  WARNING: Negative pressures at 0:05:44 hrs.
+   
+  WARNING: Negative pressures at 0:05:45 hrs.
+   
+  WARNING: Negative pressures at 0:05:46 hrs.
+   
+  WARNING: Negative pressures at 0:05:47 hrs.
+   
+  WARNING: Negative pressures at 0:05:48 hrs.
+   
+  WARNING: Negative pressures at 0:05:49 hrs.
+   
+  WARNING: Negative pressures at 0:05:50 hrs.
+   
+  WARNING: Negative pressures at 0:05:51 hrs.
+   
+  WARNING: Negative pressures at 0:05:52 hrs.
+   
+  WARNING: Negative pressures at 0:05:53 hrs.
+   
+  WARNING: Negative pressures at 0:05:54 hrs.
+   
+  WARNING: Negative pressures at 0:05:55 hrs.
+   
+  WARNING: Negative pressures at 0:05:56 hrs.
+   
+  WARNING: Negative pressures at 0:05:57 hrs.
+   
+  WARNING: Negative pressures at 0:05:58 hrs.
+   
+  WARNING: Negative pressures at 0:05:59 hrs.
+   
+  WARNING: Negative pressures at 0:06:00 hrs.
+   
+  WARNING: Negative pressures at 0:06:01 hrs.
+   
+  WARNING: Negative pressures at 0:06:02 hrs.
+   
+  WARNING: Negative pressures at 0:06:03 hrs.
+   
+  WARNING: Negative pressures at 0:06:04 hrs.
+   
+  WARNING: Negative pressures at 0:06:05 hrs.
+   
+  WARNING: Negative pressures at 0:06:06 hrs.
+   
+  WARNING: Negative pressures at 0:06:07 hrs.
+   
+  WARNING: Negative pressures at 0:06:08 hrs.
+   
+  WARNING: Negative pressures at 0:06:09 hrs.
+   
+  WARNING: Negative pressures at 0:06:10 hrs.
+   
+  WARNING: Negative pressures at 0:06:11 hrs.
+   
+  WARNING: Negative pressures at 0:06:12 hrs.
+   
+  WARNING: Negative pressures at 0:06:13 hrs.
+   
+  WARNING: Negative pressures at 0:06:14 hrs.
+   
+  WARNING: Negative pressures at 0:06:15 hrs.
+   
+  WARNING: Negative pressures at 0:06:16 hrs.
+   
+  WARNING: Negative pressures at 0:06:17 hrs.
+   
+  WARNING: Negative pressures at 0:06:18 hrs.
+   
+  WARNING: Negative pressures at 0:06:19 hrs.
+   
+  WARNING: Negative pressures at 0:06:20 hrs.
+   
+  WARNING: Negative pressures at 0:06:21 hrs.
+   
+  WARNING: Negative pressures at 0:06:22 hrs.
+   
+  WARNING: Negative pressures at 0:06:23 hrs.
+   
+  WARNING: Negative pressures at 0:06:24 hrs.
+   
+  WARNING: Negative pressures at 0:06:25 hrs.
+   
+  WARNING: Negative pressures at 0:06:26 hrs.
+   
+  WARNING: Negative pressures at 0:06:27 hrs.
+   
+  WARNING: Negative pressures at 0:06:28 hrs.
+   
+  WARNING: Negative pressures at 0:06:29 hrs.
+   
+  WARNING: Negative pressures at 0:06:30 hrs.
+   
+  WARNING: Negative pressures at 0:06:31 hrs.
+   
+  WARNING: Negative pressures at 0:06:32 hrs.
+   
+  WARNING: Negative pressures at 0:06:33 hrs.
+   
+  WARNING: Negative pressures at 0:06:34 hrs.
+   
+  WARNING: Negative pressures at 0:06:35 hrs.
+   
+  WARNING: Negative pressures at 0:06:36 hrs.
+   
+  WARNING: Negative pressures at 0:06:37 hrs.
+   
+  WARNING: Negative pressures at 0:06:38 hrs.
+   
+  WARNING: Negative pressures at 0:06:39 hrs.
+   
+  WARNING: Negative pressures at 0:06:40 hrs.
+   
+  WARNING: Negative pressures at 0:06:41 hrs.
+   
+  WARNING: Negative pressures at 0:06:42 hrs.
+   
+  WARNING: Negative pressures at 0:06:43 hrs.
+   
+  WARNING: Negative pressures at 0:06:44 hrs.
+   
+  WARNING: Negative pressures at 0:06:45 hrs.
+   
+  WARNING: Negative pressures at 0:06:46 hrs.
+   
+  WARNING: Negative pressures at 0:06:47 hrs.
+   
+  WARNING: Negative pressures at 0:06:48 hrs.
+   
+  WARNING: Negative pressures at 0:06:49 hrs.
+   
+  WARNING: Negative pressures at 0:06:50 hrs.
+   
+  WARNING: Negative pressures at 0:06:51 hrs.
+   
+  WARNING: Negative pressures at 0:06:52 hrs.
+   
+  WARNING: Negative pressures at 0:06:53 hrs.
+   
+  WARNING: Negative pressures at 0:06:54 hrs.
+   
+  WARNING: Negative pressures at 0:06:55 hrs.
+   
+  WARNING: Negative pressures at 0:06:56 hrs.
+   
+  WARNING: Negative pressures at 0:06:57 hrs.
+   
+  WARNING: Negative pressures at 0:06:58 hrs.
+   
+  WARNING: Negative pressures at 0:06:59 hrs.
+   
+  WARNING: Negative pressures at 0:07:00 hrs.
+   
+  WARNING: Negative pressures at 0:07:01 hrs.
+   
+  WARNING: Negative pressures at 0:07:02 hrs.
+   
+  WARNING: Negative pressures at 0:07:03 hrs.
+   
+  WARNING: Negative pressures at 0:07:04 hrs.
+   
+  WARNING: Negative pressures at 0:07:05 hrs.
+   
+  WARNING: Negative pressures at 0:07:06 hrs.
+   
+  WARNING: Negative pressures at 0:07:07 hrs.
+   
+  WARNING: Negative pressures at 0:07:08 hrs.
+   
+  WARNING: Negative pressures at 0:07:09 hrs.
+   
+  WARNING: Negative pressures at 0:07:10 hrs.
+   
+  WARNING: Negative pressures at 0:07:11 hrs.
+   
+  WARNING: Negative pressures at 0:07:12 hrs.
+   
+  WARNING: Negative pressures at 0:07:13 hrs.
+   
+  WARNING: Negative pressures at 0:07:14 hrs.
+   
+  WARNING: Negative pressures at 0:07:15 hrs.
+   
+  WARNING: Negative pressures at 0:07:16 hrs.
+   
+  WARNING: Negative pressures at 0:07:17 hrs.
+   
+  WARNING: Negative pressures at 0:07:18 hrs.
+   
+  WARNING: Negative pressures at 0:07:19 hrs.
+   
+  WARNING: Negative pressures at 0:07:20 hrs.
+   
+  WARNING: Negative pressures at 0:07:21 hrs.
+   
+  WARNING: Negative pressures at 0:07:22 hrs.
+   
+  WARNING: Negative pressures at 0:07:23 hrs.
+   
+  WARNING: Negative pressures at 0:07:24 hrs.
+   
+  WARNING: Negative pressures at 0:07:25 hrs.
+   
+  WARNING: Negative pressures at 0:07:26 hrs.
+   
+  WARNING: Negative pressures at 0:07:27 hrs.
+   
+  WARNING: Negative pressures at 0:07:28 hrs.
+   
+  WARNING: Negative pressures at 0:07:29 hrs.
+   
+  WARNING: Negative pressures at 0:07:30 hrs.
+   
+  WARNING: Negative pressures at 0:07:31 hrs.
+   
+  WARNING: Negative pressures at 0:07:32 hrs.
+   
+  WARNING: Negative pressures at 0:07:33 hrs.
+   
+  WARNING: Negative pressures at 0:07:34 hrs.
+   
+  WARNING: Negative pressures at 0:07:35 hrs.
+   
+  WARNING: Negative pressures at 0:07:36 hrs.
+   
+  WARNING: Negative pressures at 0:07:37 hrs.
+   
+  WARNING: Negative pressures at 0:07:38 hrs.
+   
+  WARNING: Negative pressures at 0:07:39 hrs.
+   
+  WARNING: Negative pressures at 0:07:40 hrs.
+   
+  WARNING: Negative pressures at 0:07:41 hrs.
+   
+  WARNING: Negative pressures at 0:07:42 hrs.
+   
+  WARNING: Negative pressures at 0:07:43 hrs.
+   
+  WARNING: Negative pressures at 0:07:44 hrs.
+   
+  WARNING: Negative pressures at 0:07:45 hrs.
+   
+  WARNING: Negative pressures at 0:07:46 hrs.
+   
+  WARNING: Negative pressures at 0:07:47 hrs.
+   
+  WARNING: Negative pressures at 0:07:48 hrs.
+   
+  WARNING: Negative pressures at 0:07:49 hrs.
+   
+  WARNING: Negative pressures at 0:07:50 hrs.
+   
+  WARNING: Negative pressures at 0:07:51 hrs.
+   
+  WARNING: Negative pressures at 0:07:52 hrs.
+   
+  WARNING: Negative pressures at 0:07:53 hrs.
+   
+  WARNING: Negative pressures at 0:07:54 hrs.
+   
+  WARNING: Negative pressures at 0:07:55 hrs.
+   
+  WARNING: Negative pressures at 0:07:56 hrs.
+   
+  WARNING: Negative pressures at 0:07:57 hrs.
+   
+  WARNING: Negative pressures at 0:07:58 hrs.
+   
+  WARNING: Negative pressures at 0:07:59 hrs.
+   
+  WARNING: Negative pressures at 0:08:00 hrs.
+   
+  WARNING: Negative pressures at 0:08:01 hrs.
+   
+  WARNING: Negative pressures at 0:08:02 hrs.
+   
+  WARNING: Negative pressures at 0:08:03 hrs.
+   
+  WARNING: Negative pressures at 0:08:04 hrs.
+   
+  WARNING: Negative pressures at 0:08:05 hrs.
+   
+  WARNING: Negative pressures at 0:08:06 hrs.
+   
+  WARNING: Negative pressures at 0:08:07 hrs.
+   
+  WARNING: Negative pressures at 0:08:08 hrs.
+   
+  WARNING: Negative pressures at 0:08:09 hrs.
+   
+  WARNING: Negative pressures at 0:08:10 hrs.
+   
+  WARNING: Negative pressures at 0:08:11 hrs.
+   
+  WARNING: Negative pressures at 0:08:12 hrs.
+   
+  WARNING: Negative pressures at 0:08:13 hrs.
+   
+  WARNING: Negative pressures at 0:08:14 hrs.
+   
+  WARNING: Negative pressures at 0:08:15 hrs.
+   
+  WARNING: Negative pressures at 0:08:16 hrs.
+   
+  WARNING: Negative pressures at 0:08:17 hrs.
+   
+  WARNING: Negative pressures at 0:08:18 hrs.
+   
+  WARNING: Negative pressures at 0:08:19 hrs.
+   
+  WARNING: Negative pressures at 0:08:20 hrs.
+   
+  Analysis ended Tue Oct 01 12:29:32 2024
