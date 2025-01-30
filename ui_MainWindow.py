@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'MainWindowEwMyJw.ui'
+## Form generated from reading UI file 'MainWindowahULgp.ui'
 ##
-## Created by: Qt User Interface Compiler version 6.7.2
+## Created by: Qt User Interface Compiler version 6.8.1
 ##
 ## WARNING! All changes made in this file will be lost when recompiling UI file!
 ################################################################################
@@ -97,6 +97,31 @@ class Ui_ui_MainWindow(object):
         self.tabWidget_2.addTab(self.tab_3, "")
         self.tab_4 = QWidget()
         self.tab_4.setObjectName(u"tab_4")
+        self.checkBox = QCheckBox(self.tab_4)
+        self.checkBox.setObjectName(u"checkBox")
+        self.checkBox.setGeometry(QRect(10, 10, 201, 20))
+        self.lineEdit = QLineEdit(self.tab_4)
+        self.lineEdit.setObjectName(u"lineEdit")
+        self.lineEdit.setGeometry(QRect(210, 10, 121, 21))
+        self.pushButton_2 = QPushButton(self.tab_4)
+        self.pushButton_2.setObjectName(u"pushButton_2")
+        self.pushButton_2.setGeometry(QRect(0, 250, 151, 51))
+        self.lineEdit_2 = QLineEdit(self.tab_4)
+        self.lineEdit_2.setObjectName(u"lineEdit_2")
+        self.lineEdit_2.setGeometry(QRect(440, 10, 121, 22))
+        self.label_21 = QLabel(self.tab_4)
+        self.label_21.setObjectName(u"label_21")
+        self.label_21.setGeometry(QRect(340, 10, 101, 16))
+        self.Tubes_propag_transfer_func_label = QLabel(self.tab_4)
+        self.Tubes_propag_transfer_func_label.setObjectName(u"Tubes_propag_transfer_func_label")
+        self.Tubes_propag_transfer_func_label.setGeometry(QRect(10, 50, 101, 16))
+        self.Tubes_propag_transfer_func_combo = QComboBox(self.tab_4)
+        self.Tubes_propag_transfer_func_combo.addItem("")
+        self.Tubes_propag_transfer_func_combo.addItem("")
+        self.Tubes_propag_transfer_func_combo.addItem("")
+        self.Tubes_propag_transfer_func_combo.addItem("")
+        self.Tubes_propag_transfer_func_combo.setObjectName(u"Tubes_propag_transfer_func_combo")
+        self.Tubes_propag_transfer_func_combo.setGeometry(QRect(120, 40, 211, 31))
         self.tabWidget_2.addTab(self.tab_4, "")
         self.tab_7 = QWidget()
         self.tab_7.setObjectName(u"tab_7")
@@ -371,7 +396,10 @@ class Ui_ui_MainWindow(object):
         self.tab_12.setObjectName(u"tab_12")
         self.INP_files_checkstrangeelevations_button = QCheckBox(self.tab_12)
         self.INP_files_checkstrangeelevations_button.setObjectName(u"INP_files_checkstrangeelevations_button")
-        self.INP_files_checkstrangeelevations_button.setGeometry(QRect(10, 10, 211, 20))
+        self.INP_files_checkstrangeelevations_button.setGeometry(QRect(10, 10, 271, 20))
+        self.pushButton = QPushButton(self.tab_12)
+        self.pushButton.setObjectName(u"pushButton")
+        self.pushButton.setGeometry(QRect(450, 10, 91, 24))
         self.tabWidget_3.addTab(self.tab_12, "")
         self.tab_10 = QWidget()
         self.tab_10.setObjectName(u"tab_10")
@@ -490,7 +518,7 @@ class Ui_ui_MainWindow(object):
         ui_MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QMenuBar(ui_MainWindow)
         self.menubar.setObjectName(u"menubar")
-        self.menubar.setGeometry(QRect(0, 0, 961, 22))
+        self.menubar.setGeometry(QRect(0, 0, 961, 33))
         ui_MainWindow.setMenuBar(self.menubar)
         self.statusbar = QStatusBar(ui_MainWindow)
         self.statusbar.setObjectName(u"statusbar")
@@ -499,8 +527,8 @@ class Ui_ui_MainWindow(object):
         self.retranslateUi(ui_MainWindow)
 
         self.tabWidget.setCurrentIndex(0)
-        self.tabWidget_2.setCurrentIndex(2)
-        self.tabWidget_3.setCurrentIndex(0)
+        self.tabWidget_2.setCurrentIndex(1)
+        self.tabWidget_3.setCurrentIndex(1)
 
 
         QMetaObject.connectSlotsByName(ui_MainWindow)
@@ -522,6 +550,16 @@ class Ui_ui_MainWindow(object):
         self.ListOptionsCombo_2.setItemText(3, QCoreApplication.translate("ui_MainWindow", u"Storages", None))
 
         self.tabWidget_2.setTabText(self.tabWidget_2.indexOf(self.tab_3), QCoreApplication.translate("ui_MainWindow", u"Graph overview", None))
+        self.checkBox.setText(QCoreApplication.translate("ui_MainWindow", u"High resolution dynamics. Step:", None))
+        self.lineEdit.setText(QCoreApplication.translate("ui_MainWindow", u"0.01", None))
+        self.pushButton_2.setText(QCoreApplication.translate("ui_MainWindow", u"Run", None))
+        self.label_21.setText(QCoreApplication.translate("ui_MainWindow", u"reserved for smth: ", None))
+        self.Tubes_propag_transfer_func_label.setText(QCoreApplication.translate("ui_MainWindow", u"reserved for smth: ", None))
+        self.Tubes_propag_transfer_func_combo.setItemText(0, QCoreApplication.translate("ui_MainWindow", u"Linear", None))
+        self.Tubes_propag_transfer_func_combo.setItemText(1, QCoreApplication.translate("ui_MainWindow", u"Linear+delay", None))
+        self.Tubes_propag_transfer_func_combo.setItemText(2, QCoreApplication.translate("ui_MainWindow", u"Oscl+delay", None))
+        self.Tubes_propag_transfer_func_combo.setItemText(3, QCoreApplication.translate("ui_MainWindow", u"Non-l._1", None))
+
         self.tabWidget_2.setTabText(self.tabWidget_2.indexOf(self.tab_4), QCoreApplication.translate("ui_MainWindow", u"SimulationS", None))
         self.groupBox_3.setTitle(QCoreApplication.translate("ui_MainWindow", u"Show results for node/link", None))
         self.WNTR_list_WNTR_SHOW_RESULTSpushButton_7.setText(QCoreApplication.translate("ui_MainWindow", u"Show", None))
@@ -607,7 +645,8 @@ class Ui_ui_MainWindow(object):
         self.WNTR_SimSave_text_box_2.setText(QCoreApplication.translate("ui_MainWindow", u"C:\\Tmp", None))
         self.WNTR_save_path_browse_pushButton_6.setText(QCoreApplication.translate("ui_MainWindow", u"Browse", None))
         self.groupBox_9.setTitle(QCoreApplication.translate("ui_MainWindow", u"Settings", None))
-        self.INP_files_checkstrangeelevations_button.setText(QCoreApplication.translate("ui_MainWindow", u"Check strange elevations of nodes", None))
+        self.INP_files_checkstrangeelevations_button.setText(QCoreApplication.translate("ui_MainWindow", u"Check strange elevations of nodes in inp files", None))
+        self.pushButton.setText(QCoreApplication.translate("ui_MainWindow", u"Generate graph", None))
         self.tabWidget_3.setTabText(self.tabWidget_3.indexOf(self.tab_12), QCoreApplication.translate("ui_MainWindow", u"Joao_INP_files&Graphs", None))
         self.comboBox.setItemText(0, QCoreApplication.translate("ui_MainWindow", u"Clouds", None))
         self.comboBox.setItemText(1, QCoreApplication.translate("ui_MainWindow", u"Clouds+terrain", None))
